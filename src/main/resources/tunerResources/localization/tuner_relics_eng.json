@@ -1,0 +1,30 @@
+{
+	"tuner:ATRelic": {
+		"NAME": "Destroyer",
+		"FLAVOR": "Hina's favorite weapon.",
+		"DESCRIPTIONS": [
+			"1.View top #b5 cards in your draw pile. They are considered as mission #yTargets . NL 2.After each victory in combat, there is a chance generate a #yEleph ."
+		]
+	},
+	"tuner:Bless": {
+		"NAME": "Friend's Gift",
+		"FLAVOR": "The gift of the brave.",
+		"DESCRIPTIONS": [
+			"At the start of your 2nd turn, add #yStabilize with the same count into your hand."
+		]
+	},
+	"tuner:MemoryFragments": {
+		"NAME": "Prefect Team Armband",
+		"FLAVOR": "It looks cold and ruthless.",
+		"DESCRIPTIONS": [
+			"Gain [E] at the start of your turn, until no [E] remaining at the end of one turn."
+		]
+	},
+	"tuner:GehennaPrefectTeam": {
+		"NAME": "Prefect Team's Official Tube",
+		"FLAVOR": "This special tube is made of top-of-the-line materials to ensure Hina's safety, who can't swim. You'll never see her in the water without it.",
+		"DESCRIPTIONS": [
+			"Replace #yPrefect #yTeam #yArmband. NL Gain [E] at the start of your turn."
+		]
+	}
+}

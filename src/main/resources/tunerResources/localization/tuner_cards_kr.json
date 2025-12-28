@@ -1,0 +1,850 @@
+{
+  "tuner:ImaginaryCard": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "엘레프"
+    ]
+  },
+  "tuner:TunerStrike": {
+    "NAME": "타격",
+    "PID": "Flynn",
+    "DESCRIPTION": "피해를 !D! 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TunerDefend": {
+    "NAME": "수비",
+    "PID": "Flynn",
+    "DESCRIPTION": "방어도를 !B! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PrintName": {
+    "NAME": "呼唤dep",
+    "DESCRIPTION": "wwwwwwwwwww",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCard": {
+    "NAME": "腾空击dep",
+    "PID": "118894027",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Reconcile2": {
+    "NAME": "불꽃",
+    "PID": "NULL",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 가장 오른쪽 목표를 안정화합니다. NL 이 카드를 *장전으로 변환합니다.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 가장 오른쪽 목표를 안정화합니다. NL 이 카드를 *장전+으로 변환합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "장전",
+      "피해를 !D! 줍니다. NL 카드를 1장 장전합니다. NL 이 카드를 *불꽃으로 변환합니다.",
+      "피해를 !D! 줍니다. NL 카드를 1장 장전합니다. NL 이 카드를 *불꽃+으로 변환합니다."
+    ]
+  },
+  "tuner:Reconcile": {
+    "NAME": "장전",
+    "PID": "100789528",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 카드를 1장 장전합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Bombardment": {
+    "NAME": "폭격",
+    "PID": "121091272",
+    "DESCRIPTION": "모든 적에게 피해를 !D! 줍니다. NL 모든 방어도를 잃습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:CloseStrike": {
+    "NAME": "근접 공격",
+    "PID": "121520425",
+    "DESCRIPTION": "피해를 !D! 만큼 2번 줍니다. NL [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Deviator": {
+    "NAME": "작업",
+    "PID": "107816556",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴에 카드를 !M! 장 미만으로 사용했다면, 가장 왼쪽 목표를 안정화합니다. ",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      " NL (이번 턴에 ",
+      " 장의 카드를 사용했습니다.)"
+    ]
+  },
+  "tuner:ThousandArrow": {
+    "NAME": "천 개의 화살",
+    "PID": "104355937",
+    "DESCRIPTION": "[E] [E] [E] [E] 를 얻습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "[E] [E] [E] [E] 를 얻습니다."
+  },
+  "tuner:FoldingStrike": {
+    "NAME": "하루나 교육",
+    "PID": "121166823",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이 카드를 안정화하거나 수정할 때마다 [E] [E] 를 얻고, 카드를 !M! 장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DragonArrow": {
+    "NAME": "용의 화살",
+    "PID": "104710637",
+    "DESCRIPTION": "[E] [E] 를 얻습니다. NL 카드를 1장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "[E] [E] 를 얻습니다. NL 카드를 1장 뽑습니다. NL 다음 턴에 카드를 !M! 장 뽑습니다."
+  },
+  "tuner:Daedalus": {
+    "NAME": "불안정의 근원",
+    "PID": "102244878",
+    "DESCRIPTION": "다음 두 효과 중 하나를 무작위로 부여합니다: NL 가장 오른쪽 목표를 안정화합니다. NL 가장 오른쪽 목표를 수정합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "다음 두 효과 중 하나를 무작위로 부여합니다: NL 목표 1개를 안정화합니다. NL 목표 1개를 수정합니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": [
+      "가장 오른쪽 목표를 안정화합니다. NL 소멸.",
+      "가장 오른쪽 목표를 수정합니다. NL 소멸.",
+      "목표 1개를 안정화합니다. NL 소멸.",
+      "목표 1개를 수정합니다. NL 소멸."
+    ]
+  },
+  "tuner:Eurora": {
+    "NAME": "재탄생",
+    "PID": "111665447",
+    "DESCRIPTION": "전투 시작 시, 이 카드의 값이 2 증가합니다. NL 최대 체력을 !M! 올립니다. NL 덱에서 제거됩니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Mapping": {
+    "NAME": "완전한 신비",
+    "PID": "95607201",
+    "DESCRIPTION": "전투 시작 시, 덱에 있는 비용이 0보다 큰 공격 카드의 복사본이 됩니다. NL 첫 2턴 동안, 같은 이름의 카드를 사용할 때 [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "전투 시작 시, 덱에 있는 비용이 0보다 큰 공격 카드의 복사본이 됩니다. 그 카드는 사용 전 비용이 0이 됩니다. NL 첫 2턴 동안, 같은 이름의 카드를 사용할 때 [E] 를 얻습니다."
+  },
+  "tuner:DimensionalPenetration": {
+    "NAME": "관통 탄환",
+    "PID": "110805601",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 적이 죽으면, 그 적의 최대 체력만큼 오른쪽의 모든 적에게 피해를 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RhapsodyOfTime": {
+    "NAME": "광시곡",
+    "PID": "115862603",
+    "DESCRIPTION": "무작위 적에게 !M! 방어반환을 부여합니다. NL 모든 적이 방어반환을 가지고 있으면 소멸합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wraith": {
+    "NAME": "즉석 커피",
+    "PID": "111948624",
+    "DESCRIPTION": "최대 !M! 장의 카드를 버립니다. NL 버린 카드마다 집중을 3 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "버림"
+    ]
+  },
+  "tuner:Wake": {
+    "NAME": "각성",
+    "PID": "107260996",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL [E] 를 얻을 때마다 이 카드를 버린 카드 더미에서 손으로 되돌립니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ConservativeOrbit": {
+    "NAME": "일상 과제",
+    "PID": "121136685",
+    "DESCRIPTION": "목표 하나를 안정화합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "선천성. 목표 하나를 안정화합니다. NL 소멸."
+  },
+  "tuner:SummonerOfThunder": {
+    "NAME": "램프 섀도우 나이트",
+    "PID": "97792790",
+    "DESCRIPTION": "사용불가. NL 이 카드가 목표가 되어있을때, 카드를 사용할 때마다 무작위 적에게 피해를 !M! 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Merge": {
+    "NAME": "어려운 임무",
+    "PID": "120626484",
+    "DESCRIPTION": "체력을 !M! 잃습니다. NL 목표 하나를 안정화합니다. NL 휘발성.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PsychedelicVariation": {
+    "NAME": "변주곡",
+    "PID": "118208996",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이 턴 동안 적이 다른 적을 우선 공격합니다.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:MoonGodSArrow": {
+    "NAME": "폭풍 찢기",
+    "PID": "121055615",
+    "DESCRIPTION": "모든 적에게 피해를 !D! 줍니다. NL 손에서 플레이할 때 한 번 더 피해를 줍니다. NL 뽑을 카드 더미를 떠나면서 뽑히지 않을 때 자동 발동됩니다.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:StandingAttack": {
+    "NAME": "성가셔...",
+    "PID": "NULL",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 가장 오른쪽 목표를 수정합니다.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:Astrologer": {
+    "NAME": "스타더스트 드림",
+    "PID": "114090880",
+    "DESCRIPTION": "턴 시작 시, *별을 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "선천성.  NL 턴 시작 시, *별을 손에 추가합니다."
+  },
+  "tuner:Star": {
+    "NAME": "별",
+    "PID": "110204202",
+    "DESCRIPTION": "보존. NL 목표 하나를 손에 추가합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 목표 하나를 손에 추가합니다. NL 그리고 그것을 업그레이드한다. NL 소멸."
+  },
+  "tuner:TheWindWhisperer": {
+    "NAME": "여명의 속삭임",
+    "PID": "117487116",
+    "DESCRIPTION": "사용불가. NL 뽑을 카드 더미에서 벗아날 때마다 [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "사용불가. NL 뽑을 카드 더미에서 나갈 때마다 [E] 를 얻습니다. NL 뽑을 카드 더미를 떠나면서 뽑히지 않으면 [E] 를 얻습니다."
+  },
+  "tuner:ArrowStep": {
+    "NAME": "빠른 걸음",
+    "PID": "100722733",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 목표 하나를 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SlidingStep": {
+    "NAME": "활공",
+    "PID": "111113364",
+    "DESCRIPTION": "최대 2개의 목표를 손에 추가하고, 다른 목표를 버립니다. NL 카드를 !M! 장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "최대 2개의 카드를 손에 추가합니다"
+    ]
+  },
+  "tuner:Reshaper": {
+    "NAME": "꿈",
+    "PID": "112192134",
+    "DESCRIPTION": "버린 카드 더미에서 카드를 !M! 장 장전합니다. NL *별을 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "카드 장전."
+    ]
+  },
+  "tuner:TranscendStrike": {
+    "NAME": "초월 타격",
+    "PID": "119596745",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 가장 왼쪽 목표를 !M! 번 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ChasingHunting": {
+    "NAME": "냉각기",
+    "PID": "119660385",
+    "DESCRIPTION": "비용이 2 이상인 카드를 사용할 때마다 카드를 1장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Forestrategy": {
+    "NAME": "전략적 계획",
+    "PID": "105313229",
+    "DESCRIPTION": "모든 목표를 버립니다. NL 뽑을 카드 더미에서 벗아날 때마다 방어도를 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "모든 목표를 버립니다. NL 카드를 1 장 뽑습니다. NL 뽑을 카드 더미에서 벗아날 때마다 방어도를 !M! 얻습니다."
+  },
+  "tuner:QuickAttackRotation": {
+    "NAME": "速攻旋转dep",
+    "PID": "NULL",
+    "DESCRIPTION": "装填 所有手牌。",
+    "UPGRADE_DESCRIPTION": "装填 所有手牌。 NL 丢弃所有 目标 。"
+  },
+  "tuner:Sugong": {
+    "NAME": "신속 공격 회전",
+    "PID": "110080348",
+    "DESCRIPTION": "손에 있는 모든 카드를 버립니다. NL 모든 목표를 손에 추가합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "손에 있는 모든 카드를 버립니다. NL 모든 목표를 손에 추가합니다."
+  },
+  "tuner:Twinkle": {
+    "NAME": "반짝임",
+    "PID": "119320798",
+    "DESCRIPTION": "모든 적에게 피해를 !D! 줍니다. NL *반짝임 이외의 목표를 선택해 이 카드와 교체합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:FeatherPen": {
+    "NAME": "절제",
+    "PID": "105466693",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL *편안함을 !M! 장 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Feather": {
+    "NAME": "편안함",
+    "PID": "121829774",
+    "DESCRIPTION": "보존. NL 목표 1개를 버립니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 목표 1개를 버립니다. NL 그리고 그것을 업그레이드한다. NL 소멸."
+  },
+  "tuner:FullMissileLaunch": {
+    "NAME": "화력 전개",
+    "PID": "120728958",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 모든 목표를 버립니다. NL 그 안에 있는 상태이상 및 저주 카드를 모두 소멸시킵니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:LongShot": {
+    "NAME": "중장거리 포격",
+    "PID": "121616390",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL (집중 1마다 추가 피해 !M! )",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpatialDistortion": {
+    "NAME": "도플갱어",
+    "PID": "121296466",
+    "DESCRIPTION": "현재 방어도만큼 집중을 얻습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "현재 방어도만큼 집중을 얻습니다. NL 동시에 현재 집중만큼 방어도를 얻습니다. NL 소멸."
+  },
+  "tuner:Moisturizing": {
+    "NAME": "대단원",
+    "DESCRIPTION": "뽑을 카드 더미에 카드가 없을 때만 사용할 수 있습니다. NL 집중을 !M! 얻습니다. NL 카드를 4장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "뽑을 카드 더미에 여전히 카드가 있습니다.."
+    ]
+  },
+  "tuner:ChaserOfShadows": {
+    "NAME": "해질녘의 바닷가",
+    "PID": "92212104",
+    "DESCRIPTION": "사용불가. NL 이 카드가 뽑을 카드 더미에 들어갈 때마다 2 *별을 손에 추가합니다. NL 드로우 패에 !M! 번 들어온 후, 소멸한다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HeavyBlessings": {
+    "NAME": "친구의 선물",
+    "PID": "113844150",
+    "DESCRIPTION": "사용불가. NL 제거된 후: 최대 체력을 !M! 올립니다. NL 두 번째 턴 시작 시 *안정화를 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Tracer": {
+    "NAME": "예광",
+    "PID": "102816331",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 장전합니다. NL 최대 카드를 1장 장전합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DeclarationOfOutliers": {
+    "NAME": "너와의 일상",
+    "PID": "X:桉树@maofang_4",
+    "DESCRIPTION": "탄창에 *기적을 !M! 장 추가합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExistenceOfOutliers": {
+    "NAME": "짙은 파란색",
+    "PID": "122012925",
+    "DESCRIPTION": "턴 종료 시, 탄창에 *튕겨내기를 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MacroscopicUniverse": {
+    "NAME": "이스보셋",
+    "PID": "dusk冥",
+    "DESCRIPTION": "전투 동안 모든 엘레프를 강화합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SanShengTiao": {
+    "NAME": "소탕",
+    "PID": "107666072",
+    "DESCRIPTION": "각 턴에서 처음으로 서로 다른 비용을 가진 3개의 목표를 볼 때, 모든 적에게 피해를 !M! 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Guide": {
+    "NAME": "전달되는 감정",
+    "PID": "116057218",
+    "DESCRIPTION": "카드를 1장 장전합니다. NL 모든 목표의 비용이 연속되게 배열되어 있다면 [E] [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "카드를 1장 장전합니다. NL 모든 목표의 비용이 연속되게 배열되어 있다면 [E] [E] [E] 를 얻습니다."
+  },
+  "tuner:EntropyReducer": {
+    "NAME": "카스미 교육",
+    "PID": "115760437",
+    "DESCRIPTION": "이 카드를 수정합니다. NL 이 수정이 취소되면 덱에서 제거됩니다.",
+    "UPGRADE_DESCRIPTION": "이 카드를 수정합니다."
+  },
+  "tuner:SwiftSteps": {
+    "NAME": "꿈에서 깨어날 때",
+    "PID": "112194346",
+    "DESCRIPTION": "턴 종료 시, 집중을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TuningForm": {
+    "NAME": "形态-伊施波舍dep",
+    "PID": "111665447",
+    "DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。"
+  },
+  "tuner:TuningForm2": {
+    "NAME": "形态dep",
+    "PID": "95263920",
+    "DESCRIPTION": "获得一层 *飞行 。 虚无 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得一层 *飞行 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。"
+  },
+  "tuner:TuningForm3": {
+    "NAME": "경량의 형상",
+    "PID": "95263920",
+    "DESCRIPTION": "휘발성. NL 턴당 1회 목표를 직접 사용할 수 있습니다.",
+    "UPGRADE_DESCRIPTION": "턴당 1회 목표를 직접 사용할 수 있습니다."
+  },
+  "tuner:Fusion": {
+    "NAME": "중점 관리",
+    "PID": "119838158",
+    "DESCRIPTION": "목표 1개를 선택합니다. 그것이 버린 카드 더미에 들어갈 때마다 장전합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "목표 1개에 집중하세요!"
+    ]
+  },
+  "tuner:ThousandPapermadeCranes": {
+    "NAME": "종이학",
+    "DESCRIPTION": "덱에 존재하지 않지만 이번 전투에 등장한 카드를 선택하여 덱에 추가합니다. NL 이 카드를 덱에서 제거합니다.",
+    "UPGRADE_DESCRIPTION": "덱에 존재하지 않지만 이번 전투에 등장한 카드를 선택하여 덱에 추가합니다. NL 이 카드의 강화를 제거합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "덱에 추가합니다."
+    ]
+  },
+  "tuner:SplicingTogether": {
+    "NAME": "弹药装填dep",
+    "DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。",
+    "UPGRADE_DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。 NL 抽 !M! 张牌。"
+  },
+  "tuner:BothVisualPerception": {
+    "NAME": "瓶装神秘dep",
+    "DESCRIPTION": "战斗结束后额外获得一次 神明碎片 选牌。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "战斗结束后额外获得一次 神明碎片 选牌。"
+  },
+  "tuner:Fate": {
+    "NAME": "음표의 춤",
+    "PID": "121011265",
+    "DESCRIPTION": "전투 시작 시, 복사본 1장을 뽑을 카드 더미에 추가합니다. NL *음표의 *춤 2장이 함께 목표가 될 때 자동으로 발동됩니다. NL 무작위 적에게 피해를 !D! 줍니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "전투 시작 시, 복사본 1장을 뽑을 카드 더미에 추가합니다. NL *음표의 *춤 2장이 함께 목표가 될 때 자동으로 발동됩니다. NL 무작위 적에게 피해를 !D! 줍니다."
+  },
+  "tuner:AR": {
+    "NAME": "마법 방어구",
+    "PID": "122162995",
+    "DESCRIPTION": "카드가 뽑을 카드 더미에서 뽑히지 않고 떠날 때마다, 전투 내내 강화합니다. NL 강화된 카드가 뽑을 카드 더미에서 떠날 때마다 방어도를 1 얻습니다.",
+    "UPGRADE_DESCRIPTION": "선천성. 카드가 뽑을 카드 더미에서 뽑히지 않고 떠날 때마다, 전투 내내 강화합니다. NL 강화된 카드가 뽑을 카드 더미에서 떠날 때마다 방어도를 1 얻습니다."
+  },
+  "tuner:Genroku": {
+    "NAME": "부유",
+    "PID": "112530286",
+    "DESCRIPTION": "뽑을 카드 더미를 섞을 때마다 방어도를 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BlackHole": {
+    "NAME": "열 충전",
+    "PID": "121069803",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이 턴 동안 사용한 다른 공격 카드마다 [E] 를 얻습니다. NL ( !M! [E] 를 얻습니다. 최대 4 [E] )",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BreakingThroughTheArmy": {
+    "NAME": "강습",
+    "PID": "120814854",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 전투 동안 이 카드의 피해가 !M! 증가합니다. NL 장전합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Resonance": {
+    "NAME": "명확",
+    "PID": "121116983",
+    "DESCRIPTION": "추가로 !M! 개의 목표를 봅니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExquisiteShooting": {
+    "NAME": "精巧射击dep",
+    "DESCRIPTION": "拥有 专注 时，去除敌人的格挡。 NL 当拥有至少5 专注 时，造成 !D! 点伤害。 NL 当拥有至少15 专注 时，获得一层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:StrikeHard": {
+    "NAME": "폭력",
+    "PID": "121589455",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 가장 왼쪽 목표를 안정화합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 최대 카드를 1장 장전합니다. NL 가장 왼쪽 목표를 안정화합니다. NL 소멸."
+  },
+  "tuner:Rewriting": {
+    "NAME": "안정화",
+    "PID": "120010390",
+    "DESCRIPTION": "보존. NL 목표 1개를 안정화합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 목표 1개를 안정화합니다. NL 그리고 그것을 업그레이드한다. NL 소멸."
+  },
+  "tuner:Overwriting": {
+    "NAME": "수정",
+    "PID": "119331275",
+    "DESCRIPTION": "보존. NL 목표 1개를 수정합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 목표 1개를 수정합니다. NL 그리고 그것을 업그레이드한다. NL 소멸."
+  },
+  "tuner:Writer": {
+    "NAME": "결정",
+    "PID": "121229872",
+    "DESCRIPTION": "*안정화와 *수정을 각각 1장 손에 추가합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RandomSong": {
+    "NAME": "카프리치오",
+    "PID": "116002965",
+    "DESCRIPTION": "적이 체력을 회복하거나 방어도를 얻거나 힘을 얻으려 할 때마다 대신 피해를 !M! 잃게 됩니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DecayArrow": {
+    "NAME": "부패 탄환",
+    "PID": "114001723",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이 카드가 손에 있을 때 !M! 초 후에 버립니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wormhole": {
+    "NAME": "죽은 별의 포효",
+    "PID": "108035336",
+    "DESCRIPTION": "보존. 피해를 !D! 줍니다. NL 이 카드가 보존될 때마다 수반하는 엘레프 각 종류별로 1장을 추가로 획득한다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PhantomStep": {
+    "NAME": "압박",
+    "PID": "109045821",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 모든 적에게 약화를 1 부여합니다. NL 또는 이 카드를 오른쪽 클릭하여 버리고 집중을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AbsorptionBarrier": {
+    "NAME": "마신의 그림자",
+    "PID": "121865551",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 이 카드가 손에 있을 경우, 얻는 방어도가 이번 전투에서 이 카드의 값만큼 증가합니다.",
+    "UPGRADE_DESCRIPTION": "방어도를 !B! 얻습니다. NL 이 카드가 손에 있을 경우, 약화에 영향을 받지 않으며, 얻는 방어도가 이번 전투에서 이 카드의 값만큼 증가합니다."
+  },
+  "tuner:ShrinkingTechnique": {
+    "NAME": "초과 근무",
+    "PID": "114394465",
+    "DESCRIPTION": "집중을 !M! 얻습니다. NL 다음 2턴 동안 집중이 피해를 증가시키지 않습니다.",
+    "UPGRADE_DESCRIPTION": "집중을 !M! 얻습니다. NL 다음 1턴 동안 집중이 피해를 증가시키지 않습니다."
+  },
+  "tuner:TheSandOfTheUniverse": {
+    "NAME": "宙之沙dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每次被 目标 耗能减少一。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Topology": {
+    "NAME": "연습",
+    "PID": "116808607",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 획득 시, 덱에 있는 다른 모든 *연습을 제거하고, 그 방어도 값을 이 카드에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HighDimensionalExistence": {
+    "NAME": "연기자의 마음가짐",
+    "PID": "116235576",
+    "DESCRIPTION": "집중에 의한 피해 증가 효과가 1배 증가합니다. NL 당신이 가한 비공격 피해도 집중에 의해 증가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheArrowOfHisMountain": {
+    "NAME": "타인을 위한 배려",
+    "PID": "136609921",
+    "DESCRIPTION": "획득 시, NL *전투의 *함성+, *과열+, NL *준비+, *세 *번째 *눈+ 중 하나를 선택해 이 카드와 교체하고 덱에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Juehai": {
+    "NAME": "절해",
+    "PID": "121371680",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이 카드가 뽑을 카드 더미에서 뽑히지 않고 떠날 경우 비용이 0이 됩니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Concentrate": {
+    "NAME": "집중",
+    "PID": "87676885",
+    "DESCRIPTION": "버린 카드 더미를 뽑을 카드 더미에 섞습니다. NL 집중을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AirSuperiority": {
+    "NAME": "분노",
+    "PID": "107040629",
+    "DESCRIPTION": "보존. 소멸. NL 취약을 !M! 부여합니다. NL 버린 카드 더미를 뽑을 카드 더미에 섞습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AorB": {
+    "NAME": "히나",
+    "PID": "NULL",
+    "DESCRIPTION": "목표 1개를 안정화합니다. NL 또는 이 카드를 오른쪽 클릭하여 버리고 가장 오른쪽의 목표를 수정합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheEnd": {
+    "NAME": "终幕dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入2张 *终幕+ 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入1张 *终幕 。 NL 消耗 。"
+  },
+  "tuner:TheEnd2": {
+    "NAME": "종막",
+    "PID": "121388074",
+    "DESCRIPTION": "보는 목표의 수가 1로 줄어듭니다. NL 피해를 !D! 만큼 !M! 번 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Light": {
+    "NAME": "대청소",
+    "PID": "117781745",
+    "DESCRIPTION": "최대 X개의 목표를 손에 넣습니다. NL 그 총 비용만큼 [E] 를 얻습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "최대 X+1개의 목표를 손에 넣습니다. NL 그 총 비용만큼 [E] 를 얻습니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": [
+      "목표를 선택하세요."
+    ]
+  },
+  "tuner:LoadVoid": {
+    "NAME": "비상",
+    "PID": "118894027",
+    "DESCRIPTION": "2개의 *공허를 장전합니다. NL 피해를 !D! 줍니다. NL 막히지 않은 피해만큼 집중을 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TricostStrike": {
+    "NAME": "탄도학",
+    "PID": "111641230",
+    "DESCRIPTION": "피해를 !D! 만큼 4번 줍니다. NL 보스 및 엘리트 전투 중 이 카드를 사용하면 힘을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Colored": {
+    "NAME": "색채화",
+    "PID": "122920195",
+    "DESCRIPTION": "손패에 수정 카드 한 장을 추가합니다. NL 모든 안정화를 수정으로 교체합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TargetedElimination": {
+    "NAME": "Targeted Elimination",
+    "PID": "127891530",
+    "DESCRIPTION": "Deal !D! damages. NL As Target , you can play it directly.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpottingRound": {
+    "NAME": "Spotting Round",
+    "PID": "136901780",
+    "DESCRIPTION": "!D!의 피해를 줍니다. NL 이번 턴에 이 카드를 두 번째로 사용할 때, !M!배의 피해를 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:IntelligencePreparation": {
+    "NAME": "정보 준비",
+    "PID": "131510392",
+    "DESCRIPTION": "다음 턴이 시작할 때, 추가로 !M!장의 카드를 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "다음 턴이 시작할 때, 추가로 !M!장의 카드를 뽑고 그 카드를 업그레이드합니다."
+  },
+  "tuner:MelodyOfTheFinale": {
+    "NAME": "피날레의 멜로디",
+    "PID": "133644523",
+    "DESCRIPTION": "아무 수의 대상 을 버립니다. 모든 적에게 !D!의 피해를 줍니다. NL 만약 !M!개 이상의 대상 을 버렸다면, 이번 턴에 이 효과를 추가로 발동합니다 (최대 3번). 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SeeingRed": {
+    "NAME": "하루카(새해)",
+    "DESCRIPTION": "[E] %d 를 얻습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Enlightenment": {
+    "NAME": "시로코(수영복)",
+    "DESCRIPTION": "안정화된 카드의 비용이 1로 감소합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Load": {
+    "NAME": "이부키",
+    "DESCRIPTION": "이 엘레프를 안정화에 사용할 때 카드를 %d 장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Omniscience": {
+    "NAME": "하루나",
+    "DESCRIPTION": "%d 체력을 회복합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SneckoOil": {
+    "NAME": "준코(새해)",
+    "DESCRIPTION": "얻는 집중이 %d 증가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Anger": {
+    "NAME": "세리나",
+    "DESCRIPTION": "이 엘레프가 탄창에 있으면, 수정 때 선택 카드가 업그레이드된 버전일 확률이 %d%% 증가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Pray": {
+    "NAME": "아코(드레스)",
+    "DESCRIPTION": "턴 시작 시 만트라를 %d 얻습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Recycle": {
+    "NAME": "세나",
+    "DESCRIPTION": "안정화된 카드가 뽑을 카드 더미로 돌아갈 때마다 피해가 %d 증가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Uppercut": {
+    "NAME": "카요코",
+    "DESCRIPTION": "약화와 취약을 %d 부여합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blur": {
+    "NAME": "하루카",
+    "DESCRIPTION": "다음 턴 시작 시 방어도가 사라지지 않습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "다음 %d 턴 동안 방어도가 사라지지 않습니다."
+  },
+  "tuner:Neutralize": {
+    "NAME": "마코토",
+    "DESCRIPTION": "약화를 %d 부여합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Prostrate": {
+    "NAME": "히마리",
+    "DESCRIPTION": "만트라를 %d 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Smite": {
+    "NAME": "아루(새해)",
+    "DESCRIPTION": "피해를 %d 줍니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Skim": {
+    "NAME": "무츠키(새해)",
+    "DESCRIPTION": "카드를 %d 장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Predator": {
+    "NAME": "무츠키",
+    "DESCRIPTION": "가운데에 있는 적 1-2명에게 피해를 %d 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Sentinel": {
+    "NAME": "哨位dep",
+    "DESCRIPTION": "被 消耗 时，获得 [E] [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Thunderclap": {
+    "NAME": "하루나(트랙)",
+    "DESCRIPTION": "모든 적에게 취약을 %d 부여합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Armaments": {
+    "NAME": "호시노(수영복)",
+    "DESCRIPTION": "전투가 끝날 때까지 손에 있는 모든 카드를 강화합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "전투가 끝날 때까지 손에 있는 모든 카드를 강화합니다."
+  },
+  "tuner:Leap": {
+    "NAME": "아카리",
+    "DESCRIPTION": "뽑을 카드 더미에서 뽑히지 않고 떠날 때, 방어도를 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Melter": {
+    "NAME": "카스미",
+    "DESCRIPTION": "적의 방어도를 제거합니다.",
+    "UPGRADE_DESCRIPTION": "적의 방어도, 판금 갑옷, 금속화를 제거합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "적의 방어도, 판금 갑옷, 금속화, 인공물을 제거합니다."
+    ]
+  },
+  "tuner:WellPlan": {
+    "NAME": "키라라",
+    "DESCRIPTION": "안정화된 카드를 뽑을 카드 더미에 섞어 넣습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Worship": {
+    "NAME": "아코",
+    "DESCRIPTION": "만트라를 %d 얻습니다. 안정화된 카드가 사용될 때 이 엘레프가 탄창으로 돌아옵니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AllForOne": {
+    "NAME": "万物dep",
+    "DESCRIPTION": "将弃牌堆中所有0耗能的牌放入你的手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MasterOfStrategy": {
+    "NAME": "히나",
+    "DESCRIPTION": "카드를 %d 장 뽑습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Miracle": {
+    "NAME": "기적",
+    "DESCRIPTION": "[E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "[E] [E] 를 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "[E] [E] [E] 를 얻습니다."
+    ]
+  },
+  "tuner:Deflect": {
+    "NAME": "튕겨내기",
+    "DESCRIPTION": "방어도를 %d 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Defence": {
+    "NAME": "치나츠",
+    "DESCRIPTION": "방어도를 %d 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Strike": {
+    "NAME": "이오리(수영복)",
+    "DESCRIPTION": "피해를 %d 줍니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Icy": {
+    "NAME": "이즈미",
+    "DESCRIPTION": "냉기를 1 번 영창합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "냉기를 1 번 영창합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "냉기를 1 번 영창합니다. 구체 슬롯 1개를 얻습니다."
+    ]
+  },
+  "tuner:Hologram": {
+    "NAME": "全息dep",
+    "DESCRIPTION": "装填 自身。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DoubleTap": {
+    "NAME": "카요코(새해)",
+    "DESCRIPTION": "한 번 더 사용합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Echo": {
+    "NAME": "이오리",
+    "DESCRIPTION": "휘발성 및 소멸 이 있는 복사본 1장을 손에 추가합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "휘발성 및 소멸 이 있는 복사본 %d 장을 손에 추가합니다."
+  },
+  "tuner:Reflex": {
+    "NAME": "풍기위원 (모브)",
+    "PID": "123467053",
+    "DESCRIPTION": "획득 시 덱에 복사본 2 장을 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Loop": {
+    "NAME": "이로하",
+    "DESCRIPTION": "피해를 %d 줍니다. 이 엘레프는 안정화되었을 때 사라지지 않습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blasphemy": {
+    "NAME": "준코",
+    "DESCRIPTION": "%d 번 더 사용합니다. 다음 턴에 사망합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Safety": {
+    "NAME": "치나츠",
+    "DESCRIPTION": "인공물을 %d 얻습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ThirdEye": {
+    "NAME": "하루나(새해)",
+    "DESCRIPTION": "When picked up, gain %d maximum HP.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Acrobatics": {
+    "NAME": "이즈나",
+    "DESCRIPTION": "카드를 %d 장 뽑고, 1장을 버립니다. 안정화된 카드가 사용될 때 이 엘레프가 탄창으로 돌아옵니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Alu": {
+    "NAME": "아루",
+    "DESCRIPTION": "적의 최대 HP의 %d%%를 잃게 합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Fuuka": {
+    "NAME": "후우카(새해)",
+    "DESCRIPTION": "플라즈마를 1번 영창합니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "플라즈마를 1번 영창합니다."
+  },
+  "tuner:Fuuka2": {
+    "NAME": "후우카",
+    "DESCRIPTION": "카드를 섞을 때 안정화된 카드를 손에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Dahuolong": {
+    "NAME": "메구",
+    "DESCRIPTION": "카드를 %d 장 뽑습니다. [E] 를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:July": {
+    "NAME": "쥬리",
+    "DESCRIPTION": "턴 시작 시, 힘을 2 얻습니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "턴 시작 시, 힘을 2 얻고, 카드를 1 장 뽑습니다. 소멸.",
+    "EXTENDED_DESCRIPTION": [
+      "턴 시작 시, 힘을 2 얻고, 카드를 1 장 뽑고, [E] 를 얻습니다. 소멸."
+    ]
+  },
+  "tuner:Sleep": {
+    "NAME": "Satsuki",
+    "DESCRIPTION": "적을 1턴 동안 잠재웁니다. 소멸.",
+    "UPGRADE_DESCRIPTION": "적을 1턴 동안 잠재웁니다."
+  },
+  "tuner:Chiaki": {
+    "NAME": "Chiaki",
+    "DESCRIPTION": "이번 턴 종료 시 카드를 버리지 않습니다. ",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCards": {
+    "NAME": "第一张神名碎片dep",
+    "DESCRIPTION": "获得4点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  }
+}

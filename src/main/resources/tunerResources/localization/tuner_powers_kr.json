@@ -1,0 +1,156 @@
+{
+  "tuner:RushPower": {
+    "NAME": "집중",
+    "DESCRIPTIONS": [
+      "체력 손실을",
+      " #b 방지합니다. NL 공격 피해가 #b",
+      " 증가합니다."
+    ]
+  },
+  "tuner:Draw0Power": {
+    "NAME": "抽牌减少dep",
+    "DESCRIPTIONS": [
+      "下回合少抽4张牌。"
+    ]
+  },
+  "tuner:HighDimensionalExistencePower": {
+    "NAME": "공연자의 마음가짐",
+    "DESCRIPTIONS": [
+      "#y집중의 피해 증가 효과가 #b",
+      "00% 증가합니다. 공격이 아닌 피해 또한 #y집중에 의해 증가합니다."
+    ]
+  },
+  "tuner:MindControlPower": {
+    "NAME": "변화",
+    "DESCRIPTIONS": [
+      "적이 다른 적을 우선 공격하도록 합니다.",
+      "적이 #b",
+      " 턴 동안 다른 적을 우선 공격하도록 합니다."
+    ]
+  },
+  "tuner:AstrologerPower": {
+    "NAME": "스타더스트 드림",
+    "DESCRIPTIONS": [
+      "당신의 턴이 시작될 때 #y별 #b",
+      " 장을 손에 추가합니다."
+    ]
+  },
+  "tuner:ExistencePower": {
+    "NAME": "짙은 파란색",
+    "DESCRIPTIONS": [
+      "당신의 턴이 끝날 때 #y튕겨내기 #b",
+      " 장을 탄창에 추가합니다."
+    ]
+  },
+  "tuner:MacroscopicUniversePower": {
+    "NAME": "이스보셋",
+    "DESCRIPTIONS": [
+      "#y안정화할 때 #y엘레프의 효과가 #b",
+      " 00% 증가합니다."
+    ]
+  },
+  "tuner:SanShengTiaoPower": {
+    "NAME": "휩쓸기",
+    "DESCRIPTIONS": [
+      "처음으로 3가지 다른 비용을 가진 #y목표를 볼 때, 모든 적에게 피해를 #y",
+      " 줍니다."
+    ]
+  },
+  "tuner:ChasingHuntingPower": {
+    "NAME": "에어 쿨러",
+    "DESCRIPTIONS": [
+      "비용이 2 이상인 카드를 사용할 때마다 카드 #b",
+      " 장을 뽑습니다."
+    ]
+  },
+  "tuner:SwiftStepsPower": {
+    "NAME": "깨어나는 순간",
+    "DESCRIPTIONS": [
+      "턴이 끝날 때 #y집중력을 #b",
+      " 얻습니다."
+    ]
+  },
+  "tuner:TuningFormPower": {
+    "NAME": "伊施波舍dep",
+    "DESCRIPTIONS": [
+      "回合结束时，抽 #b1 张牌，获得那张牌0费的复制 #b",
+      " 张。"
+    ]
+  },
+  "tuner:TuningFormPower3": {
+    "NAME": "경량의 형상",
+    "DESCRIPTIONS": [
+      "턴당 #b",
+      " 회 목표를 직접 사용할 수 있습니다."
+    ]
+  },
+  "tuner:TuningFormPower2": {
+    "NAME": "飞行dep",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害减少 #b25% 。 NL 每次失去生命后在敌人回合结束时减少一层。 NL 回合开始时增加一层并获得相应层数的 [E] 。"
+    ]
+  },
+  "tuner:ARPower": {
+    "NAME": "마법 방어구",
+    "DESCRIPTIONS": [
+      "카드가 뽑히지 않고 뽑기 더미를 떠날 때, 전투 중 나머지 동안 업그레이드합니다. NL #y업그레이드된 카드가 뽑기 더미를 떠날 때마다 #b",
+      " #y방어도를 얻습니다."
+    ]
+  },
+  "tuner:GenrokuPower": {
+    "NAME": "부유",
+    "DESCRIPTIONS": [
+      "뽑기 카드 더미를 섞을 때마다 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "tuner:JiabanPower": {
+    "NAME": "초과 근무",
+    "DESCRIPTIONS": [
+      "#y집중이 #b",
+      " 턴 동안 피해를 증가시킬 수 없습니다."
+    ]
+  },
+  "tuner:ColoredPower": {
+    "NAME": "색채",
+    "DESCRIPTIONS": [
+      "모든 #p안정화를 #y수정으로 대체합니다."
+    ]
+  },
+  "tuner:RandomSongPower": {
+    "NAME": "카프리치오",
+    "DESCRIPTIONS": [
+      "#g체력, #y방어도 또는 #r힘을 얻는 효과가 대신 피해를 #b",
+      " 잃습니다."
+    ]
+  },
+  "tuner:FusionPower": {
+    "NAME": "중점 집중",
+    "DESCRIPTIONS": [
+      "#y",
+      " 카드가 버린 카드 더미에 들어갈 때마다 장전합니다."
+    ]
+  },
+  "tuner:SleepPower": {
+    "NAME": "최면",
+    "DESCRIPTIONS": [
+      "피해를 입기 전에, 적이 #b",
+      " 턴 동안 행동할 수 없습니다.",
+      " 턴 동안 행동할 수 없습니다."
+    ]
+  },
+  "tuner:IntelligencePreparationPower": {
+    "NAME": "정보 준비",
+    "DESCRIPTIONS": [
+      "다음 턴이 시작할 때, #b",
+      "장의 카드를 뽑고 그 카드를 업그레이드합니다."
+    ]
+  },
+  "Dorlach": {
+    "NAME": "디스트로이어의 탄창",
+    "DESCRIPTIONS": [
+      "#y클릭하여 #y엘레프 목록을 엽니다.",
+      "디스트로이어의 엘레프들."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"tuner:ATRelic": {
+		"NAME": "毁灭者",
+		"FLAVOR": "日奈最心爱的武器。",
+		"DESCRIPTIONS": [
+			"1.检视抽牌堆上方的 #b5 张牌，并将它们作为任务 #y目标 。 NL 2.战斗胜利后有一定概率获得一次 #y神名碎片 选牌。"
+		]
+	},
+	"tuner:Bless": {
+		"NAME": "友人之赠",
+		"FLAVOR": "勇者的礼物。",
+		"DESCRIPTIONS": [
+			"第二个回合开始时，在手牌加入与计数相同的 #y安定牌 。"
+		]
+	},
+	"tuner:MemoryFragments": {
+		"NAME": "风纪委员臂章",
+		"FLAVOR": "看起来就冷酷无情的样子。",
+		"DESCRIPTIONS": [
+			"回合开始时获得 [E] ，直到某回合结束时没有剩余 [E] 。"
+		]
+	}	,
+	"tuner:GehennaPrefectTeam": {
+		"NAME": "风纪委员泳圈",
+		"FLAVOR": "与普通游泳圈不同，它具有特殊的材料和功能，符合风纪委员会的特点。还是许多不熟悉游泳的人的重要工具。",
+		"DESCRIPTIONS": [
+			"替换 #y风纪委员臂章 。 NL 回合开始时获得 [E] 。"
+		]
+	}
+}

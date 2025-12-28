@@ -1,0 +1,156 @@
+{
+  "tuner:RushPower": {
+    "NAME": "Concentration",
+    "DESCRIPTIONS": [
+      "Prevents at most #b",
+      " HP lost. NL Attack damage increases #b",
+      " ."
+    ]
+  },
+  "tuner:Draw0Power": {
+    "NAME": "抽牌减少dep",
+    "DESCRIPTIONS": [
+      "下回合少抽4张牌。"
+    ]
+  },
+  "tuner:HighDimensionalExistencePower": {
+    "NAME": "Performer's Mindset",
+    "DESCRIPTIONS": [
+      "The damage increasing effect of #yConcentration increases by #b",
+      " 00%. The Non-Attack damage you caused is also increased by #yConcentration."
+    ]
+  },
+  "tuner:MindControlPower": {
+    "NAME": "Variation",
+    "DESCRIPTIONS": [
+      "The enemy prioritizes attacking other enemies.",
+      "The enemy prioritizes attacking other enemies for #b",
+      " turns."
+    ]
+  },
+  "tuner:AstrologerPower": {
+    "NAME": "StarDust Falls in Dream",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " #yStar into your hand."
+    ]
+  },
+  "tuner:ExistencePower": {
+    "NAME": "Blue",
+    "DESCRIPTIONS": [
+      "At the end of your turn, add #b",
+      " #yDeflect into the magazine."
+    ]
+  },
+  "tuner:MacroscopicUniversePower": {
+    "NAME": "Esh-baalDEP",
+    "DESCRIPTIONS": [
+      "When #yStabilize, the effects of #yElephs increase by #b",
+      " 00%."
+    ]
+  },
+  "tuner:SanShengTiaoPower": {
+    "NAME": "Sweep",
+    "DESCRIPTIONS": [
+      "When view #yTargets with 3 different cost for the first time in each turn, deal #y",
+      " damage to ALL enemies."
+    ]
+  },
+  "tuner:ChasingHuntingPower": {
+    "NAME": "Air Cooler",
+    "DESCRIPTIONS": [
+      "Whenever you play a card cost 2 or higher, draw #b",
+      " cards."
+    ]
+  },
+  "tuner:SwiftStepsPower": {
+    "NAME": "Awaken Moment",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yConcentration."
+    ]
+  },
+  "tuner:TuningFormPower": {
+    "NAME": "伊施波舍dep",
+    "DESCRIPTIONS": [
+      "回合结束时，抽 #b1 张牌，获得那张牌0费的复制 #b",
+      " 张。"
+    ]
+  },
+  "tuner:TuningFormPower3": {
+    "NAME": "Lithe Form",
+    "DESCRIPTIONS": [
+      "#b",
+      " times this turn, you can play #yTargets directly."
+    ]
+  },
+  "tuner:TuningFormPower2": {
+    "NAME": "飞行dep",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害减少 #b25% 。 NL 每次失去生命后在敌人回合结束时减少一层。 NL 回合开始时增加一层并获得相应层数的 [E] 。"
+    ]
+  },
+  "tuner:ARPower": {
+    "NAME": "Magic Armor",
+    "DESCRIPTIONS": [
+      "Whenever a card leaves draw pile without being drawn, Upgrade it in the rest of combat. NL Whenever a #yUpgraded card leaves draw pile, gain #b",
+      " #yBlock."
+    ]
+  },
+  "tuner:GenrokuPower": {
+    "NAME": "Float",
+    "DESCRIPTIONS": [
+      "Whenever you shuffle your draw pile, gain #b",
+      " #yBlock."
+    ]
+  },
+  "tuner:JiabanPower": {
+    "NAME": "Overtime Work",
+    "DESCRIPTIONS": [
+      "Concentration cannot increase damage for #b",
+      " turns."
+    ]
+  },
+  "tuner:ColoredPower": {
+    "NAME": "Chroma",
+    "DESCRIPTIONS": [
+      "Replace ALL #pStabilize with #yAmend."
+    ]
+  },
+  "tuner:RandomSongPower": {
+    "NAME": "Capriccio",
+    "DESCRIPTIONS": [
+      "The effects of gaining #gHP, #yBlock or #rStrength becomes to deal #b",
+      " damage to self."
+    ]
+  },
+  "tuner:FusionPower": {
+    "NAME": "Key Attention",
+    "DESCRIPTIONS": [
+      "Whenever #y",
+      " enter your discard pile, load it."
+    ]
+  },
+  "tuner:SleepPower": {
+    "NAME": "Hypnosis",
+    "DESCRIPTIONS": [
+      "Before taking damage, the enemy cannot act for #b",
+      " turn.",
+      " turns."
+    ]
+  },
+  "tuner:IntelligencePreparationPower": {
+    "NAME": "Intelligence Preparation",
+    "DESCRIPTIONS": [
+      "At the start of your next turn, draw #b",
+      " cards and Upgrade them."
+    ]
+  },
+  "Dorlach": {
+    "NAME": "The Magazine of Destroyer",
+    "DESCRIPTIONS": [
+      "#yClick to open the list of #yElephs.",
+      "The elephs of Destroyer."
+    ]
+  }
+}

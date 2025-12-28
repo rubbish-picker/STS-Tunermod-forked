@@ -1,0 +1,8 @@
+{
+	"otherObtainDestroyer": "Special Gameplay: Other characters start with Destroyer and a special card; All enemies start combat with +1 Strength.",
+	"otherObtainDestroyer2": "All characters start with Destroyer.(See config for details.)",
+	"activeTutorials": "Load Tutorials.(Tutorials automatically close after loading once)",
+	"dontLoad3d": "Disable 3D model (can be enabled when crashing occurs)",
+	"difficultMod": "Hard Mode: Elephs are only dropped in elite battles and boss battles.",
+	"imgSelectSfx": "Play the sound effect when selecting Eleph."
+}

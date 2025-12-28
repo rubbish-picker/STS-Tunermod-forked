@@ -1,0 +1,40 @@
+{
+	"TunerTutorials": {
+		"TEXT": [
+			"The president couldn't wake up after playing a strange game in Game Development Department!!Although I don't want to admit it, the Gehenna Academy Prefect Team needs you to awaken the president. Now I will assist Sensei in understanding the president.",
+			"The president can view the top 5 cards of the #ydraw #ypile. Many cards of Hina can interact with these \"Targets\".",
+			"During the president's climb, she receives assistance from her Gehenna allies. Their powers are added as cards to the president's deck. Strategically utilize these cards to expand the effects of your card combinations.",
+			"The above information is recorded in #yDestroyer, Sensei can check it anytime. I'll be counting on you for the rest."
+		],
+		"LABEL": [
+			"Sensei!!!!",
+			"View Targets",
+			"Elephs",
+			""
+		]
+	},
+	"TunerREADME": {
+		"TEXT": [
+			"Head prefect of the Gehenna Academy Prefect Team. Usually a lazy girl who considers almost everything troublesome, NL but is still strict head perfect when it comes to rules and regulations."
+		],
+		"LABEL": [
+			"Hina"
+		]
+	},
+	"TunerBeforeDead": {
+		"TEXT": [
+			"Annoying..."
+		],
+		"LABEL": [
+			"The Heart dialogue."
+		]
+	},
+	"TunerFullArtTutorial": {
+		"TEXT": [
+			"Full Art Card"
+		],
+		"LABEL": [
+			"The card has small stars on the bottom right corner. You can right-click these cards anywhere to flip them and switch to the full art card."
+		]
+	}
+}

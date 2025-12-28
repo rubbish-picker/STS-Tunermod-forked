@@ -1,0 +1,67 @@
+{
+	"keywords": [
+		{
+			"NAMES": [
+				"Concentration",
+				"concentration",
+				"Concentrations",
+				"concentrations"
+			],
+			"DESCRIPTION": "Prevents HP lost. Increase #b1 Attack damage per #b3 Concentrations."
+		},
+		{
+			"NAMES": [
+				"Load",
+				"load"
+			],
+			"DESCRIPTION": "Insert the chosen card into the leftmost position of all #ytargets. If the number of #yTargets viewed has reached the limit, add the rightmost #yTarget into your hand."
+		},
+		{
+			"NAMES": [
+				"Stabilize",
+				"stabilize",
+				"Stabilized"
+			],
+			"DESCRIPTION": "#pAdd #pthe #pchosen #pcard #pinto #pyour #phand, #pgive #pit #pspecial #peffects."
+		},
+		{
+			"NAMES": [
+				"Amend",
+				"amend"
+			],
+			"DESCRIPTION": "#pAdd #pthe #pchosen #pcard #pinto #pyour #phand, #ptransform #pit #puntil #pthe #pend #pof #pcombat."
+		},
+		{
+			"NAMES": [
+				"Target",
+				"target",
+				"Targets",
+				"targets"
+			],
+			"DESCRIPTION": "Top cards viewed by Hina in your draw pile. You can change the top card of the draw pile by manipulating the #ytarget."
+		},
+		{
+			"NAMES": [
+				"block_return",
+				"blockreturn"
+			],
+			"DESCRIPTION": "When attacked, gain the corresponding layer of #yBlocks."
+		},
+		{
+			"NAMES": [
+				"Sequence",
+				"sequence"
+			],
+			"DESCRIPTION": "Cards without cost are considered as cost #b-2. Cards cost X are considered as cost #b-1."
+		},
+		{
+			"NAMES": [
+				"Eleph",
+				"Elephs",
+				"eleph",
+				"elephs"
+			],
+			"DESCRIPTION": "The mystic of Hina, can be used to Stabilize cards. NL Won't join the battle, but will enter among the #ydestroyer ."
+		}
+	]
+}

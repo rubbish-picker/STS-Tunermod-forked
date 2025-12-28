@@ -1,0 +1,851 @@
+{
+  "tuner:ImaginaryCard": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "Eleph"
+    ]
+  },
+  "tuner:TunerStrike": {
+    "NAME": "Strike",
+    "PID": "Flynn",
+    "DESCRIPTION": "Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TunerDefend": {
+    "NAME": "Defend",
+    "PID": "Flynn",
+    "DESCRIPTION": "Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PrintName": {
+    "NAME": "呼唤dep",
+    "DESCRIPTION": "wwwwwwwwwww",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCard": {
+    "NAME": "腾空击dep",
+    "PID": "118894027",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Reconcile2": {
+    "NAME": "Fire",
+    "PID": "NULL",
+    "DESCRIPTION": "Deal !D! damage. NL Stabilize the rightmost Target. NL Convert this card to *Load.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Stabilize the rightmost Target. NL Convert this card to *Load+.",
+    "EXTENDED_DESCRIPTION": [
+      "Load",
+      "Deal !D! damage. NL Load 1 card. NL Convert this card to *Fire.",
+      "Deal !D! damage. NL Load 1 card. NL Convert this card to *Fire+."
+    ]
+  },
+  "tuner:Reconcile": {
+    "NAME": "Load",
+    "PID": "100789528",
+    "DESCRIPTION": "Deal !D! damage. NL Load 1 card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Bombardment": {
+    "NAME": "Bombardment",
+    "PID": "121091272",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Lose all Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:CloseStrike": {
+    "NAME": "Close Attack",
+    "PID": "121520425",
+    "DESCRIPTION": "Deal !D! damage twice. NL Gain [E].",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Deviator": {
+    "NAME": "Work",
+    "PID": "107816556",
+    "DESCRIPTION": "Deal !D! damage. NL If you have played less than !M! cards this turn, Stabilize the leftmost Target.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " card played.)"
+    ]
+
+  },
+  "tuner:ThousandArrow": {
+    "NAME": "Thousand Arrow",
+    "PID": "104355937",
+    "DESCRIPTION": "Gain [E] [E] [E] [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E] [E]."
+  },
+  "tuner:FoldingStrike": {
+    "NAME": "Educate Haruna",
+    "PID": "121166823",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you Stabilize of Amend this card, gain [E] [E] , draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DragonArrow": {
+    "NAME": "Dragon Arrow",
+    "PID": "104710637",
+    "DESCRIPTION": "Gain [E] [E]. NL Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Draw 1 card. NL Next turn, draw !M! card."
+  },
+  "tuner:Daedalus": {
+    "NAME": "Source of Instability",
+    "PID": "102244878",
+    "DESCRIPTION": "Apply one of the following two effects randomly: NL Stabilize the rightmost Target. NL Amend the rightmost Target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply one of the following two effects randomly: NL Stabilize 1 Target. NL Amend 1 Target. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Stabilize the rightmost Target. NL Exhaust.",
+      "Amend the rightmost Target. NL Exhaust.",
+      "Stabilize 1 Target. NL Exhaust.",
+      "Amend 1 Target. NL Exhaust."
+    ]
+  },
+  "tuner:Eurora": {
+    "NAME": "Reborn",
+    "PID": "111665447",
+    "DESCRIPTION": "At the start of combat, the value of this card increase 2. NL Raise your Max HP by !M!. NL Removed from your deck.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Mapping": {
+    "NAME": "Full Mystic",
+    "PID": "95607201",
+    "DESCRIPTION": "At the start of combat, it becomes a copy of an Attack card with cost higher than 0 in your deck. NL In your first 2 turns, when you play a same name card, gain [E].",
+    "UPGRADE_DESCRIPTION": "At the start of combat, it becomes a copy of an Attack card with cost higher than 0 in your deck. That card cost 0 before playing. NL In your first 2 turns, when you play a same name card, gain [E]."
+  },
+  "tuner:DimensionalPenetration": {
+    "NAME": "Piercing Bullet",
+    "PID": "110805601",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy dies, deal damage equal to its Max HP to ALL enemies on the enemy's right side.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RhapsodyOfTime": {
+    "NAME": "Rhapsody",
+    "PID": "115862603",
+    "DESCRIPTION": "Apply an enemy !M! Block_Return randomly. NL Exhaust when ALL enemies have Block_Return.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wraith": {
+    "NAME": "Instant Coffee",
+    "PID": "111948624",
+    "DESCRIPTION": "Discard at most !M! cards. NL Gain 3 Concentration for each card discarded. ",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "Discard"
+    ]
+  },
+  "tuner:Wake": {
+    "NAME": "Wake",
+    "PID": "107260996",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you gain [E] , return this from the discard pile to your hand.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ConservativeOrbit": {
+    "NAME": "Daily Tasks",
+    "PID": "121136685",
+    "DESCRIPTION": "Stabilize 1 Target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Stabilize 1 Target. NL Exhaust."
+  },
+  "tuner:SummonerOfThunder": {
+    "NAME": "Lamp Shadow Night",
+    "PID": "97792790",
+    "DESCRIPTION": "Unplayable. NL When this card is a Target, deal !M! damage to a random enemy whenever you play a card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Merge": {
+    "NAME": "Hard Tast",
+    "PID": "120626484",
+    "DESCRIPTION": "Lose !M! *HP. NL Stabilize 1 Target. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PsychedelicVariation": {
+    "NAME": "Variation",
+    "PID": "118208996",
+    "DESCRIPTION": "Deal !D! damage. NL The enemy prioritizes attacking other enemies this turn.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:MoonGodSArrow": {
+    "NAME": "Storm Cutting",
+    "PID": "121055615",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal damage once more when playing from your hand. NL Autoplay it when it leaves your draw pile without being drawn.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:StandingAttack": {
+    "NAME": "Annoying...",
+    "PID": "NULL",
+    "DESCRIPTION": "Deal !D! damage. NL Amend the rightmost Target.",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:Astrologer": {
+    "NAME": "StarDust Falls in Dream",
+    "PID": "114090880",
+    "DESCRIPTION": "At the start of your turn, add a *Star into your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add a *Star into your hand."
+  },
+  "tuner:Star": {
+    "NAME": "Star",
+    "PID": "110204202",
+    "DESCRIPTION": "Retain. NL Put 1 Target into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Put 1 Target into your hand and upgrade it. NL Exhaust."
+  },
+  "tuner:TheWindWhisperer": {
+    "NAME": "Within Dawn",
+    "PID": "117487116",
+    "DESCRIPTION": "Unplayable. NL Whenever it leaves draw pile, gain [E] .",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever it leaves draw pile, gain [E] . NL Gain [E] when it leaves your draw pile without being drawn."
+  },
+  "tuner:ArrowStep": {
+    "NAME": "Arrow Step",
+    "PID": "100722733",
+    "DESCRIPTION": "Gain !B! Block. NL Put 1 Target into your hand.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SlidingStep": {
+    "NAME": "Glide",
+    "PID": "111113364",
+    "DESCRIPTION": "Put at most 2 Targets into your hand, discard other Targets. NL Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "Put at most 2 cards into your hand"
+    ]
+  },
+  "tuner:Reshaper": {
+    "NAME": "Dream",
+    "PID": "112192134",
+    "DESCRIPTION": "Load !M! card from your discard pile. NL Add a *Star into your hand.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "Load card."
+    ]
+  },
+  "tuner:TranscendStrike": {
+    "NAME": "Transcend Strike",
+    "PID": "119596745",
+    "DESCRIPTION": "Deal !D! damage. NL Put the leftmost Target into your hand !M! times.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ChasingHunting": {
+    "NAME": "Air Cooler",
+    "PID": "119660385",
+    "DESCRIPTION": "Whenever you play a card cost 2 or higher, draw 1 card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Forestrategy": {
+    "NAME": "Forestrategy",
+    "PID": "105313229",
+    "DESCRIPTION": "Discard ALL Targets. NL Whenever it leaves draw pile, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "Discard ALL Targets. NL Draw 1 card. NL Whenever it leaves draw pile, gain !M! Block."
+  },
+  "tuner:QuickAttackRotation": {
+    "NAME": "速攻旋转dep",
+    "PID": "NULL",
+    "DESCRIPTION": "装填 所有手牌。",
+    "UPGRADE_DESCRIPTION": "装填 所有手牌。 NL 丢弃所有 目标 。"
+  },
+  "tuner:Sugong": {
+    "NAME": "Quick Attack Rotation",
+    "PID": "110080348",
+    "DESCRIPTION": "Discard your hand. NL Put ALL Targets into your hand. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Discard your hand. NL Put ALL Targets into your hand."
+  },
+  "tuner:Twinkle": {
+    "NAME": "Twinkle",
+    "PID": "119320798",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Choose a Target other than *Twinkle, exchange it with this card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:FeatherPen": {
+    "NAME": "Temperance",
+    "PID": "105466693",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *At *ease into your hand.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Feather": {
+    "NAME": "At ease",
+    "PID": "121829774",
+    "DESCRIPTION": "Retain. NL Discard 1 Target.  NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Discard 1 Target and upgrade it.  NL Exhaust."
+  },
+  "tuner:FullMissileLaunch": {
+    "NAME": "Firepower Coverage",
+    "PID": "120728958",
+    "DESCRIPTION": "Deal !D! damage. NL Discard ALL Targets. NL Exhaust all Status and Curse card within it.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:LongShot": {
+    "NAME": "Heavy Artillery",
+    "PID": "121616390",
+    "DESCRIPTION": "Deal !D! damage. NL (Deals !M! additional damage for each Concentration)",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpatialDistortion": {
+    "NAME": "Doppelganger",
+    "PID": "121296466",
+    "DESCRIPTION": "Gain Concentration equal to your Block. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain Concentration equal to your Block. NL Gain Block equal to your Concentration simultaneously. NL Exhaust."
+  },
+  "tuner:Moisturizing": {
+    "NAME": "Grand Finale",
+    "DESCRIPTION": "Can only be played if there are no cards in your draw pile. NL Gain !M! Concentration. NL Draw 4 cards.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "There are still cards in draw pile.."
+    ]
+  },
+  "tuner:ChaserOfShadows": {
+    "NAME": "Seaside with Sunset",
+    "PID": "92212104",
+    "DESCRIPTION": "Unplayable. NL Whenever this card enters your draw pile, add 2 *Star into your hand. NL Exhaust after entering draw pile !M! times.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HeavyBlessings": {
+    "NAME": "Friend's Gift",
+    "PID": "113844150",
+    "DESCRIPTION": "Unplayable. NL After removed: Raise your Max HP by !M! ; At the start of your 2nd turn, add 1 *Stabilize into your hand.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Tracer": {
+    "NAME": "Tracer",
+    "PID": "102816331",
+    "DESCRIPTION": "Gain !B! Block. NL Load it. NL Load up to one card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DeclarationOfOutliers": {
+    "NAME": "With Your Daily Routine",
+    "PID": "X:桉树@maofang_4",
+    "DESCRIPTION": "Add !M! *Miracle into the magazine. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExistenceOfOutliers": {
+    "NAME": "Blue",
+    "PID": "122012925",
+    "DESCRIPTION": "At the end of your turn, add a *Deflect into the magazine.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MacroscopicUniverse": {
+    "NAME": "Esh-baal",
+    "PID": "dusk冥",
+    "DESCRIPTION": "Upgrade ALL Elephs for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SanShengTiao": {
+    "NAME": "Sweep",
+    "PID": "107666072",
+    "DESCRIPTION": "When view Targets with 3 different cost for the first time in each turn, deal !M! damage to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Guide": {
+    "NAME": "Transmitted Emotions",
+    "PID": "116057218",
+    "DESCRIPTION": "Load 1 card. NL If the cost of all Targets is arranged in sequence, gain [E] [E].",
+    "UPGRADE_DESCRIPTION": "Load 1 card. NL If the cost of all Targets is arranged in sequence, gain [E] [E] [E]."
+  },
+  "tuner:EntropyReducer": {
+    "NAME": "Educate Kasumi",
+    "PID": "115760437",
+    "DESCRIPTION": "Amend this card. NL If this Amend is canceled, remove it from your deck.",
+    "UPGRADE_DESCRIPTION": "Amend this card."
+  },
+  "tuner:SwiftSteps": {
+    "NAME": "Awaken Moment",
+    "PID": "112194346",
+    "DESCRIPTION": "At the end of your turn, gain !M! Concentration.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TuningForm": {
+    "NAME": "形态-伊施波舍dep",
+    "PID": "111665447",
+    "DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。"
+  },
+  "tuner:TuningForm2": {
+    "NAME": "形态dep",
+    "PID": "95263920",
+    "DESCRIPTION": "获得一层 *飞行 。 虚无 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得一层 *飞行 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。"
+  },
+  "tuner:TuningForm3": {
+    "NAME": "Lithe Form",
+    "PID": "95263920",
+    "DESCRIPTION": "Ethereal. NL Once per turn, you can play target directly.",
+    "UPGRADE_DESCRIPTION": "Once per turn, you can play target directly."
+  },
+  "tuner:Fusion": {
+    "NAME": "Key Attention",
+    "PID": "119838158",
+    "DESCRIPTION": "Choose 1 Target. Whenever it enters discard pile, Load it.",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "Pay key attention to 1 Target!"
+    ]
+  },
+  "tuner:ThousandPapermadeCranes": {
+    "NAME": "Paper Crane",
+    "DESCRIPTION": "Choose a card that does not exist in the deck but appears in this combat, add it to your deck. NL Remove this card from your deck.",
+    "UPGRADE_DESCRIPTION": "Choose a card that does not exist in the deck but appears in this combat, add it to your deck. NL Remove the upgrade of this card.",
+    "EXTENDED_DESCRIPTION": [
+      "Add to your deck."
+    ]
+  },
+  "tuner:SplicingTogether": {
+    "NAME": "弹药装填dep",
+    "DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。",
+    "UPGRADE_DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。 NL 抽 !M! 张牌。"
+  },
+  "tuner:BothVisualPerception": {
+    "NAME": "瓶装神秘dep",
+    "DESCRIPTION": "战斗结束后额外获得一次 神明碎片 选牌。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "战斗结束后额外获得一次 神明碎片 选牌。"
+  },
+  "tuner:Fate": {
+    "NAME": "Musical Note Dance",
+    "PID": "121011265",
+    "DESCRIPTION": "At the start of combat, add 1 copy into your draw pile. NL Autoplay when 2 *Musical *Note *Dance become Targets together. NL Deal !D! damage to a random enemy. Exhaust.",
+    "UPGRADE_DESCRIPTION": "At the start of combat, add 1 copy into your draw pile. NL Autoplay when 2 *Musical *Note *Dance become Targets together. NL Deal !D! damage to a random enemy."
+  },
+  "tuner:AR": {
+    "NAME": "Magic Armor",
+    "PID": "122162995",
+    "DESCRIPTION": "Whenever a card leaves draw pile without being drawn, Upgrade it in the rest of combat. NL Whenever a Upgraded card leaves draw pile, gain 1 Block.",
+    "UPGRADE_DESCRIPTION": "Innate. Whenever a card leaves draw pile without being drawn, Upgrade it in the rest of combat. NL Whenever a Upgraded card leaves draw pile, gain 1 Block."
+  },
+  "tuner:Genroku": {
+    "NAME": "Float",
+    "PID": "112530286",
+    "DESCRIPTION": "Whenever you shuffle your draw pile, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BlackHole": {
+    "NAME": "Heat Charging",
+    "PID": "121069803",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E] for each other Attack card played this turn. NL (Gain !M! [E] , at most 4 [E] )",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BreakingThroughTheArmy": {
+    "NAME": "Assault",
+    "PID": "120814854",
+    "DESCRIPTION": "Deal !D! damage. NL Increase this card's damage by !M! this combat. NL Load it.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Resonance": {
+    "NAME": "Clear",
+    "PID": "121116983",
+    "DESCRIPTION": "View additional !M! Targets.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExquisiteShooting": {
+    "NAME": "精巧射击dep",
+    "DESCRIPTION": "拥有 专注 时，去除敌人的格挡。 NL 当拥有至少5 专注 时，造成 !D! 点伤害。 NL 当拥有至少15 专注 时，获得一层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:StrikeHard": {
+    "NAME": "Violence",
+    "PID": "121589455",
+    "DESCRIPTION": "Deal !D! damage. NL Stabilize the leftmost Target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Load up to one card. NL Stabilize the leftmost Target. NL Exhaust."
+  },
+  "tuner:Rewriting": {
+    "NAME": "Stabilize",
+    "PID": "120010390",
+    "DESCRIPTION": "Retain. NL Stabilize 1 Target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Stabilize 1 Target and upgrade it. NL Exhaust."
+  },
+  "tuner:Overwriting": {
+    "NAME": "Amend",
+    "PID": "119331275",
+    "DESCRIPTION": "Retain. NL Amend 1 Target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Amend 1 Target and upgrade it. NL Exhaust."
+  },
+  "tuner:Writer": {
+    "NAME": "Sanction",
+    "PID": "121229872",
+    "DESCRIPTION": "Add 1 *Stabilize and 1 *Amend into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RandomSong": {
+    "NAME": "Capriccio",
+    "PID": "116002965",
+    "DESCRIPTION": "Whenever the enemy would heal *HP, gain Block or Strength, take !M! damage instead.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DecayArrow": {
+    "NAME": "Decay Bullet",
+    "PID": "114001723",
+    "DESCRIPTION": "Deal !D! damage. NL When this card is in your hand, discard it after !M! seconds.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wormhole": {
+    "NAME": "Death Star Roaring",
+    "PID": "108035336",
+    "DESCRIPTION": "Retain. Deal !D! damage. NL Whenever this card retained, gain one additional Elephs of each accompanying type.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PhantomStep": {
+    "NAME": "Pressure",
+    "PID": "109045821",
+    "DESCRIPTION": "Gain !B! Block. NL Apply 1 Weak to ALL enemies. NL Or right click to discard this card and gain !M! Concentration.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AbsorptionBarrier": {
+    "NAME": "Demon God Shadow",
+    "PID": "121865551",
+    "DESCRIPTION": "Gain !B! Block. NL When in hand, the Block you gain increase the value of this card instead this combat.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL When in hand, you are not affected by Frail, the Block you gain increase the value of this card instead this combat."
+  },
+  "tuner:ShrinkingTechnique": {
+    "NAME": "Overtime Work",
+    "PID": "114394465",
+    "DESCRIPTION": "Gain !M! Concentration. NL Concentration cannot increase damage for next 2 turns.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Concentration. NL Concentration cannot increase damage for next 1 turn."
+  },
+  "tuner:TheSandOfTheUniverse": {
+    "NAME": "宙之沙dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每次被 目标 耗能减少一。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Topology": {
+    "NAME": "Practice",
+    "PID": "116808607",
+    "DESCRIPTION": "Gain !B! Block. NL Upon pickup, remove all other *Practice in your deck, add their Block value to this card.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HighDimensionalExistence": {
+    "NAME": "Performer's Mindset",
+    "PID": "116235576",
+    "DESCRIPTION": "The damage increasing effect of Concentration +100%. NL The Non-Attack damage you caused is also increased by Concentration.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheArrowOfHisMountain": {
+    "NAME": "Fiery Trees and Silver Flowers",
+    "PID": "136609921",
+    "DESCRIPTION": "Upon pickup, choose NL *Warcry+, *Overclock+, NL *Prepared+, *ThirdEye+ to replace this card, add it into your deck.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Juehai": {
+    "NAME": "Distant Sea",
+    "PID": "121371680",
+    "DESCRIPTION": "Deal !D! damage. NL This card cost 0 if it leaves draw pile without being drawn.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Concentrate": {
+    "NAME": "Concentrate",
+    "PID": "87676885",
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile. NL Gain !M! Concentration.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AirSuperiority": {
+    "NAME": "Wrath",
+    "PID": "107040629",
+    "DESCRIPTION": "Retain. Exhaust. NL Apply !M! Vulnerable. NL Shuffle your discard pile into your draw pile.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AorB": {
+    "NAME": "Hina",
+    "PID": "NULL",
+    "DESCRIPTION": "Stabilize 1 Target. NL Or right click to discard this card and amend the rightmost target.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheEnd": {
+    "NAME": "终幕dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入2张 *终幕+ 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入1张 *终幕 。 NL 消耗 。"
+  },
+  "tuner:TheEnd2": {
+    "NAME": "The End",
+    "PID": "121388074",
+    "DESCRIPTION": "The number of Targets viewed becomes 1. NL Deal !D! damage !M! times.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Light": {
+    "NAME": "General Cleaning",
+    "PID": "117781745",
+    "DESCRIPTION": "Put at most X Targets into your hand. NL Gain [E] equal to their total cost. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Put at most X+1 Targets into your hand. NL Gain [E] equal to their total cost. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose Targets"
+    ]
+  },
+  "tuner:LoadVoid": {
+    "NAME": "Soar",
+    "PID": "118894027",
+    "DESCRIPTION": "Load 2 *Void. NL Deal !D! damage. NL Gain Concentration equal to unblocked damage dealt.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TricostStrike": {
+    "NAME": "Ballistics",
+    "PID": "111641230",
+    "DESCRIPTION": "Deal !D! damage 4 times. NL Gain !M! Strength if you play this card during Boss and Elite combats.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Colored": {
+    "NAME": "Chroma",
+    "PID": "122920195",
+    "DESCRIPTION": "Add a Amend Card to your hand. NL Replace ALL Stabilize with Amend.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TargetedElimination": {
+    "NAME": "Targeted Elimination",
+    "PID": "127891530",
+    "DESCRIPTION": "Deal !D! damages. NL As Target , you can play it directly.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpottingRound": {
+    "NAME": "Spotting Round",
+    "PID": "136901780",
+    "DESCRIPTION": "Deal !D! damage. NL The second time you play this in a turn, deal !M! times damage.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:IntelligencePreparation": {
+    "NAME": "Intelligence Preparation",
+    "PID": "131510392",
+    "DESCRIPTION": "At the start of your next turn, draw !M! additional cards.",
+    "UPGRADE_DESCRIPTION": "At the start of your next turn, draw !M! additional cards and Upgrade them."
+  },
+  "tuner:MelodyOfTheFinale": {
+    "NAME": "Melody of the Finale",
+    "PID": "133644523",
+    "DESCRIPTION": "Discard any number of Targets. Deal !D! damage to ALL enemies. NL If at least !M! Targets are discarded, repeat this effect (up to 3 times). Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SeeingRed": {
+    "NAME": "Haruka(New Year)",
+    "DESCRIPTION": "Gain%d [E] . Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Enlightenment": {
+    "NAME": "Shiroko(Swimsuit)",
+    "DESCRIPTION": "The cost of Stabilized card reduces to 1.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Load": {
+    "NAME": "Ibuki",
+    "DESCRIPTION": "When this Eleph is used to Stabilize, draw %d cards.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Omniscience": {
+    "NAME": "Haruna",
+    "DESCRIPTION": "Heal %d Hp. Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SneckoOil": {
+    "NAME": "Junko(New Year)",
+    "DESCRIPTION": "Increase Concentration gained by %d.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Anger": {
+    "NAME": "Serina",
+    "DESCRIPTION": "If this Eleph is in magazine, when Amend, the probability of option cards being the upgraded version increases by %d%%.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Pray": {
+    "NAME": "Ako(Dress)",
+    "DESCRIPTION": "At the start of your turn, gain %d Mantra. Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Recycle": {
+    "NAME": "Sena",
+    "DESCRIPTION": "Whenever the Stabilized card returns to the draw pile, damage increases by %d.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Uppercut": {
+    "NAME": "Kayoko",
+    "DESCRIPTION": "Apply %d Weak and Vulnerable.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blur": {
+    "NAME": "Haruka",
+    "DESCRIPTION": "Block is not removed at the start of your next turn. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Block is not removed at the start of your next %d turn."
+  },
+  "tuner:Neutralize": {
+    "NAME": "Makoto",
+    "DESCRIPTION": "Apply %d Weak.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Prostrate": {
+    "NAME": "Himari",
+    "DESCRIPTION": "Gain %d Mantra.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Smite": {
+    "NAME": "Aru(New Year)",
+    "DESCRIPTION": "Deal %d damage. Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Skim": {
+    "NAME": "Mutsuki(New Year)",
+    "DESCRIPTION": "Draw %d cards.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Predator": {
+    "NAME": "Mutsuki",
+    "DESCRIPTION": "Deal %d damage to 1-2 enemies in the middle.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Sentinel": {
+    "NAME": "哨位dep",
+    "DESCRIPTION": "被 消耗 时，获得 [E] [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Thunderclap": {
+    "NAME": "Haruna(Track)",
+    "DESCRIPTION": "Apply %d Vulnerable to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Armaments": {
+    "NAME": "Hoshino(Swimsuit)",
+    "DESCRIPTION": "Upgrade all cards in your hand for the rest of combat. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Upgrade all cards in your hand for the rest of combat."
+  },
+  "tuner:Leap": {
+    "NAME": "Akari",
+    "DESCRIPTION": "leaving draw pile without being drawn, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Melter": {
+    "NAME": "Kasumi",
+    "DESCRIPTION": "Remove Block from the enemy.",
+    "UPGRADE_DESCRIPTION": "Remove Block, Plated Armor, Metallicize from the enemy.",
+    "EXTENDED_DESCRIPTION": [
+      "Remove Block, Plated Armor, Metallicize, Artifact from the enemy."
+    ]
+  },
+  "tuner:WellPlan": {
+    "NAME": "Kirara",
+    "DESCRIPTION": "Shuffle the Stabilized card to your draw pile.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Worship": {
+    "NAME": "Ako",
+    "DESCRIPTION": "Gain %d Mantra. This Eleph returns to magazine when the Stabilized card is played.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AllForOne": {
+    "NAME": "万物dep",
+    "DESCRIPTION": "将弃牌堆中所有0耗能的牌放入你的手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MasterOfStrategy": {
+    "NAME": "Hina",
+    "DESCRIPTION": "Draw %d cards. Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Miracle": {
+    "NAME": "Miracle",
+    "DESCRIPTION": "Gain [E] .",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] .",
+    "EXTENDED_DESCRIPTION": [
+      "Gain [E] [E] [E] ."
+    ]
+  },
+  "tuner:Deflect": {
+    "NAME": "Deflect",
+    "DESCRIPTION": "Gain %d Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Defence": {
+    "NAME": "Chinatsu",
+    "DESCRIPTION": "Gain %d Block.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Strike": {
+    "NAME": "Iori(SwimSuit)",
+    "DESCRIPTION": "Deal %d damage.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Icy": {
+    "NAME": "Izumi",
+    "DESCRIPTION": "Channel %d Frost. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel %d Frost.",
+    "EXTENDED_DESCRIPTION": [
+      "Channel 1 Frost. Gain 1 Orb slot."
+    ]
+  },
+  "tuner:Hologram": {
+    "NAME": "全息dep",
+    "DESCRIPTION": "装填 自身。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DoubleTap": {
+    "NAME": "Kayoko(New Year)",
+    "DESCRIPTION": "Play once more.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Echo": {
+    "NAME": "Iori",
+    "DESCRIPTION": "Add 1 copy with Exhaust and Ethereal to your hand. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add %d copies with Exhaust and Ethereal to your hand."
+  },
+  "tuner:Reflex": {
+    "NAME": "Perfect Team Member",
+    "PID": "123467053",
+    "DESCRIPTION": "When picked up, add 2 copies to your deck.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Loop": {
+    "NAME": "Iroha",
+    "DESCRIPTION": "Deal %d damage. This Eleph will not disappear when Stabilized.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blasphemy": {
+    "NAME": "Junko",
+    "DESCRIPTION": "Play %d times more. Die next turn.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Safety": {
+    "NAME": "Chinatsu",
+    "DESCRIPTION": "Gain %d Artifact. Exhaust.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ThirdEye": {
+    "NAME": "Haruna(New Year)",
+    "DESCRIPTION": "When picked up, gain %d maximum HP.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Acrobatics": {
+    "NAME": "Izuna",
+    "DESCRIPTION": "Draw %d cards, discard 1 card. This Eleph returns to magazine when the Stabilized card is played.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Alu": {
+    "NAME": "Aru",
+    "DESCRIPTION": "The enemy lose %d%% of Max HP.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Fuuka": {
+    "NAME": "Fuuka(New Year)",
+    "DESCRIPTION": "Channel 1 Plasma. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel 1 Plasma."
+  },
+  "tuner:Fuuka2": {
+    "NAME": "Fuuka",
+    "DESCRIPTION": "Add the Stabilized card into your hand when shuffle.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Dahuolong": {
+    "NAME": "Megu",
+    "DESCRIPTION": "Draw %d card. Gain [E] .",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:July": {
+    "NAME": "Juri",
+    "DESCRIPTION": "At the start of your turn, gain 2 Strength. Exhaust.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain 2 Strength, draw 1 cards. Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "At the start of your turn, gain 2 Strength, draw 1 cards, gain [E] . Exhaust. "
+    ]
+  },
+  "tuner:Sleep": {
+    "NAME": "Satsuki",
+    "DESCRIPTION": "Puts the enemy to sleep for 1 turn. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Puts the enemy to sleep for 1 turn."
+  },
+  "tuner:Chiaki": {
+    "NAME": "Chiaki",
+    "DESCRIPTION": "Retain your hand this turn.",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCards": {
+    "NAME": "第一张神名碎片dep",
+    "DESCRIPTION": "获得4点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  }
+}

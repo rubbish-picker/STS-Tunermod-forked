@@ -1,0 +1,162 @@
+{
+  "tuner:RushPower": {
+    "NAME": "专注",
+    "DESCRIPTIONS": [
+      "为玩家抵挡最多 #b",
+      " 点生命损失。 NL 攻击伤害提升 #b",
+      " 点。"
+    ]
+  },
+  "tuner:Draw0Power": {
+    "NAME": "抽牌减少dep",
+    "DESCRIPTIONS": [
+      "下回合少抽4张牌。"
+    ]
+  },
+  "tuner:HighDimensionalExistencePower": {
+    "NAME": "演奏的心情",
+    "DESCRIPTIONS": [
+      "#y专注 提升伤害的效果提升 #b",
+      " 倍。 NL 非攻击伤害也受到 #y专注 加成。"
+    ]
+  },
+  "tuner:MindControlPower": {
+    "NAME": "变奏曲",
+    "DESCRIPTIONS": [
+      "敌人本回合优先攻击其他敌人。",
+      "敌人接下来 #b",
+      " 回合优先攻击其他敌人。"
+    ]
+  },
+  "tuner:AstrologerPower": {
+    "NAME": "星尘坠梦",
+    "DESCRIPTIONS": [
+      "回合开始时在手牌加入 #b",
+      " 张 #y星星 。"
+    ]
+  },
+  "tuner:ExistencePower": {
+    "NAME": "蔚蓝色",
+    "DESCRIPTIONS": [
+      "回合结束时在弹仓中加入 #b",
+      " 张 #y偏折 。"
+    ]
+  },
+  "tuner:MacroscopicUniversePower": {
+    "NAME": "伊施巴力dep",
+    "DESCRIPTIONS": [
+      "#y安定 目标时， #y神名碎片 的效果增加 #b",
+      " 倍。"
+    ]
+  },
+  "tuner:SanShengTiaoPower": {
+    "NAME": "扫荡",
+    "DESCRIPTIONS": [
+      "每回合第一次同时检视3种耗能的 #y目标 时，对所有敌人造成 #y",
+      " 点伤害。"
+    ]
+  },
+  "tuner:ChasingHuntingPower": {
+    "NAME": "风冷器",
+    "DESCRIPTIONS": [
+      "每次打出耗能2及以上的牌时抽 #b",
+      " 张牌。"
+    ]
+  },
+  "tuner:SwiftStepsPower": {
+    "NAME": "梦醒时",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 #b",
+      " 层 #y专注 。"
+    ]
+  },
+  "tuner:TuningFormPower": {
+    "NAME": "伊施波舍dep",
+    "DESCRIPTIONS": [
+      "回合结束时，抽 #b1 张牌，获得那张牌0费的复制 #b",
+      " 张。"
+    ]
+  },
+  "tuner:TuningFormPower3": {
+    "NAME": "飞行",
+    "DESCRIPTIONS": [
+      "本回合有 #b",
+      " 次，你可以直接打出 #y目标 。"
+    ]
+  },
+  "tuner:TuningFormPower2": {
+    "NAME": "飞行dep",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害减少 #b25% 。 NL 每次失去生命后在敌人回合结束时减少一层。 NL 回合开始时增加一层并获得相应层数的 [E] 。"
+    ]
+  },
+  "tuner:ARPower": {
+    "NAME": "魔甲",
+    "DESCRIPTIONS": [
+      "用抽牌以外的方式离开抽牌堆的牌 #y升级 。 NL #y升级 的牌离开抽牌堆时获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "tuner:GenrokuPower": {
+    "NAME": "漂浮",
+    "DESCRIPTIONS": [
+      "每次洗牌时，获得 #b",
+      " 层 #y格挡 。"
+    ]
+  },
+  "tuner:JiabanPower": {
+    "NAME": "加班",
+    "DESCRIPTIONS": [
+      "#b",
+      " 回合内， #y专注 无法提升 #y力量 。"
+    ]
+  },
+  "tuner:ColoredPower": {
+    "NAME": "色彩化",
+    "DESCRIPTIONS": [
+      "你的 #p安定 全部替换为 #y修正 。"
+    ]
+  },
+  "tuner:RandomSongPower": {
+    "NAME": "随想曲",
+    "DESCRIPTIONS": [
+      "获得 #g生命 ， #y格挡 ， #r力量 的效果变为令自己受到 #b",
+      " 点伤害。"
+    ]
+  },
+  "tuner:FusionPower": {
+    "NAME": "重点关照",
+    "DESCRIPTIONS": [
+      "#y",
+      " 进入弃牌堆时，将它装填。"
+    ]
+  },
+  "tuner:SleepPower": {
+    "NAME": "催眠",
+    "DESCRIPTIONS": [
+      "受到伤害前，敌人在 #b",
+      " 回合内无法行动。",
+      " 回合内无法行动。"
+    ]
+  },
+  "tuner:ServantOfTheServantsOfTheSaintsPower": {
+    "NAME": "圣者众仆之仆",
+    "DESCRIPTIONS": [
+      "根据玩家拥有的正面状态数量： NL %s ： #g安全 ，受到的所有伤害增加 #b200%% ； NL %s ： #y警戒 ，受到的所有伤害增加 #b100%% ，每打出一张牌玩家受到 #b%s 点 #r伤害 。； NL 其它： #r危险 ，每打出一张牌玩家受到 #b%s 点 #r生命 。"
+    ]
+  },
+  "tuner:IntelligencePreparationPower": {
+    "NAME": "情报准备",
+    "DESCRIPTIONS": [
+      "下回合开始时，抽 #b",
+      " 张牌，并将其升级。"
+    ]
+  },
+  "Dorlach": {
+    "NAME": "毁灭者的弹仓",
+    "DESCRIPTIONS": [
+      "#y单击 打开 #y神名碎片 列表。",
+      "毁灭者中的神名碎片。"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "RewriteAction": {
+    "TEXT": [
+      "Start Stabilizing.",
+      "Start Amending.",
+      "Stabilize #b",
+      " : NL Choose the #yElephs, whose total cost not exceeding #b",
+      " , #rExhaust them, #b",
+      " gain their effects and return hand.",
+      "Amend #r",
+      " : NL Choose a card, and #r",
+      " ransforms into that card and returns to your hand. NL (The number of selectable cards is equal to the current number of #yElephs.)",
+      "Cannot Stabilize...."
+    ]
+  },
+  "TunerModHelper": {
+    "TEXT": [
+      "Accompanying Elephs."
+    ]
+  },
+  "tuner:ImaginaryCard": {
+    "TEXT": [
+      "Elephs",
+      "The material of card modification. Won't join the battle, but will enter among the #yDestroyers ."
+    ]
+  },
+  "tuner:NoTargetCard": {
+    "TEXT": [
+      "No target selected..."
+    ]
+  },
+  "ThousandPapermadeCranes": {
+    "TEXT": [
+      "Cards not present in the deck can be obtained through a Discover-like effect."
+    ]
+  },
+  "tuner:ImaginaryReward": {
+    "TEXT": [
+      "Add 1 Eleph to your deck"
+    ]
+  },
+  "LoadAHandAction": {
+    "TEXT": [
+      "Choose",
+      "cards to Load."
+    ]
+  },
+  "tuner:OptionA": {
+    "TEXT": [
+      "Unlock Mystic",
+      "Remove any Elephs, upgrade an equal number of Elephs.(Each Elephs can be upgraded twice)",
+      "Your deck has no Elephs."
+    ]
+  },
+  "tuner:MelodyOfTheFinaleAction": {
+    "TEXT": [
+      "discard"
+    ]
+  },
+  "tuner:CampfireGetEffect": {
+    "TEXT": [
+      "Remove any Elephs from your deck.",
+      "Cancel",
+      "upgrade ",
+      " Elephs"
+    ]
+  },
+  "tuner:SkinSelect": {
+    "TEXT": [
+      "Skin Select",
+      "Default",
+      "Swimsuit",
+      "Dress",
+      "",
+      "",
+      "Dress(in production)"
+    ]
+  }
+}

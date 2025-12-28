@@ -1,0 +1,853 @@
+{
+  "tuner:ImaginaryCard": {
+    "NAME": "",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "神名碎片"
+    ]
+  },
+  "tuner:TunerStrike": {
+    "NAME": "打击",
+    "PID": "Flynn",
+    "DESCRIPTION": "造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TunerDefend": {
+    "NAME": "防御",
+    "PID": "Flynn",
+    "DESCRIPTION": "获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PrintName": {
+    "NAME": "呼唤dep",
+    "DESCRIPTION": "wwwwwwwwwww",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCard": {
+    "NAME": "测试牌牌",
+    "PID": "NULL",
+    "DESCRIPTION": "获得当前手牌数的 格挡 。 NL （ !B! 点）",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "获得当前手牌数+ !M! 的 格挡 。 NL （ !B! 点）"
+    ]
+  },
+  "tuner:Reconcile2": {
+    "NAME": "开火",
+    "PID": "100780383",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 安定 最右侧的 目标 。 NL 变为 *装填 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 安定 最右侧的 目标 。 NL 变为 *装填+ 。",
+    "EXTENDED_DESCRIPTION": [
+      "装填",
+      "造成 !D! 点伤害。 NL 装填 一张牌。 NL 变为 *开火 。",
+      "造成 !D! 点伤害。 NL 装填 一张牌。 NL 变为 *开火+ 。"
+    ]
+  },
+  "tuner:Reconcile": {
+    "NAME": "装填",
+    "PID": "100789528",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 装填 一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Bombardment": {
+    "NAME": "轰炸",
+    "PID": "121091272",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 失去所有 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:CloseStrike": {
+    "NAME": "近身打",
+    "PID": "121520425",
+    "DESCRIPTION": "造成 !D! 点伤害2次。 NL 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Deviator": {
+    "NAME": "工作",
+    "PID": "107816556",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若本回合打出的牌少于 !M! 张， 安定 最左侧的 目标 。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      " NL （已打出 ",
+      " 张牌）"
+    ]
+  },
+  "tuner:ThousandArrow": {
+    "NAME": "千矢",
+    "PID": "123685510",
+    "DESCRIPTION": "获得 [E] [E] [E] [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] [E] 。"
+  },
+  "tuner:FoldingStrike": {
+    "NAME": "教育晴奈",
+    "PID": "121166823",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 被 安定 或 修正 时获得 [E] [E] ，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DragonArrow": {
+    "NAME": "龙矢",
+    "PID": "104710637",
+    "DESCRIPTION": "获得 [E] [E] 。 NL 抽1张牌。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] 。 NL 抽1张牌。 NL 下回合抽 !M! 张牌。"
+  },
+  "tuner:Daedalus": {
+    "NAME": "不稳定之源",
+    "PID": "102244878",
+    "DESCRIPTION": "随机变为以下两个效果的其中一个： NL 安定 最右侧的 目标 。 NL 修正 最右侧的 目标 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "随机变为以下两个效果的其中一个： NL 选择一张 目标 安定 。 NL 选择一张 目标 修正 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      "安定 最右侧的 目标 。 NL 消耗 。",
+      "修正 最右侧的 目标 。 NL 消耗 。",
+      "选择一张 目标 安定 。 NL 消耗 。",
+      "选择一张 目标 修正 。 NL 消耗 。"
+    ]
+  },
+  "tuner:Eurora": {
+    "NAME": "重生",
+    "PID": "111665447",
+    "DESCRIPTION": "战斗开始时，数值永久加二。 NL 获得 !M! 点 最大生命。 NL 这张牌从牌组移除。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Mapping": {
+    "NAME": "神秘充盈",
+    "PID": "95607201",
+    "DESCRIPTION": "战斗开始时，变为牌组中一张耗能大于0的攻击牌的复制。 NL 前两回合打出所有同名卡获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "战斗开始时，变为牌组中一张耗能大于0的攻击牌的复制，那张牌打出前耗能为0。 NL 前两回合打出所有同名卡获得 [E] 。"
+  },
+  "tuner:DimensionalPenetration": {
+    "NAME": "贯通弹",
+    "PID": "110805601",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若击杀，对其右侧的所有敌人造成其最大生命值等量的伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RhapsodyOfTime": {
+    "NAME": "狂想曲",
+    "PID": "115862603",
+    "DESCRIPTION": "随机给予一名敌人 !M! 层 格挡返还 。 NL 所有敌人均具有 格挡返还 时 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wraith": {
+    "NAME": "速溶咖啡",
+    "PID": "111948624",
+    "DESCRIPTION": "丢弃最多 !M! 张牌。 NL 每张获得3层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "丢弃一些牌"
+    ]
+  },
+  "tuner:Wake": {
+    "NAME": "尾迹",
+    "PID": "107260996",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每次获得能量从弃牌堆加入手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ConservativeOrbit": {
+    "NAME": "每日任务",
+    "PID": "121136685",
+    "DESCRIPTION": "选择一张 目标 安定 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 选择一张 目标 安定 。 NL 消耗 。"
+  },
+  "tuner:SummonerOfThunder": {
+    "NAME": "灯影夜",
+    "PID": "97792790",
+    "DESCRIPTION": "不能被打出。 NL 这张牌作为 目标 时，每打出一张牌随机对一名敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Merge": {
+    "NAME": "困难任务",
+    "PID": "120626484",
+    "DESCRIPTION": "失去 !M! 点 *生命 。 NL 选择一张 目标 安定 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PsychedelicVariation": {
+    "NAME": "变奏曲",
+    "PID": "118208996",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本回合敌人优先攻击其他敌人。",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:MoonGodSArrow": {
+    "NAME": "风暴切割",
+    "PID": "121055615",
+    "DESCRIPTION": "造成 !D! 点群体伤害。 NL 在手牌打出时额外造成一次伤害。 NL 以抽牌以外的方式离开抽牌堆时自动打出。",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:StandingAttack": {
+    "NAME": "好麻烦。。",
+    "PID": "NULL",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 修正 最右侧的 目标 。",
+    "UPGRADE_DESCRIPTION": "www"
+  },
+  "tuner:Astrologer": {
+    "NAME": "星尘坠梦",
+    "PID": "114090880",
+    "DESCRIPTION": "每回合开始时在手牌加入一张 *星星 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时在手牌加入一张 *星星 。"
+  },
+  "tuner:Star": {
+    "NAME": "星星",
+    "PID": "110204202",
+    "DESCRIPTION": "保留 。 NL 选择一张 目标 取下。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 选择一张 目标 取下 并将其 升级 。 NL 消耗 。"
+  },
+  "tuner:TheWindWhisperer": {
+    "NAME": "晨曦间",
+    "PID": "117487116",
+    "DESCRIPTION": "不能被打出 。 NL 离开抽牌堆时获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "不能被打出 。 NL 离开抽牌堆时获得 [E] 。 NL 用抽牌以外的方式离开抽牌堆时，获得 [E] 。"
+  },
+  "tuner:ArrowStep": {
+    "NAME": "箭步",
+    "PID": "100722733",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 取下一张 目标 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SlidingStep": {
+    "NAME": "滑翔",
+    "PID": "111113364",
+    "DESCRIPTION": "选择最多2张 目标 加入手牌，其余丢弃。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "最多两张牌加入手牌"
+    ]
+  },
+  "tuner:Reshaper": {
+    "NAME": "梦见",
+    "PID": "112192134",
+    "DESCRIPTION": "从弃牌堆 装填 !M! 张牌。 NL 在手牌加入一张 *星星 。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "牌装填"
+    ]
+  },
+  "tuner:TranscendStrike": {
+    "NAME": "超越打击",
+    "PID": "119596745",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 取下最左的 目标 !M! 次。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ChasingHunting": {
+    "NAME": "风冷器",
+    "PID": "119660385",
+    "DESCRIPTION": "每次打出耗能2及以上的牌时抽一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Forestrategy": {
+    "NAME": "先见之策",
+    "PID": "105313229",
+    "DESCRIPTION": "丢弃所有 目标 。 NL 这张牌离开抽牌堆时获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有 目标 。 NL 抽1张牌。 NL 这张牌离开抽牌堆时获得 !M! 点 格挡 。"
+  },
+  "tuner:QuickAttackRotation": {
+    "NAME": "速攻旋转dep",
+    "PID": "NULL",
+    "DESCRIPTION": "装填 所有手牌。",
+    "UPGRADE_DESCRIPTION": "装填 所有手牌。 NL 丢弃所有 目标 。"
+  },
+  "tuner:Sugong": {
+    "NAME": "速攻旋转",
+    "PID": "110080348",
+    "DESCRIPTION": "丢弃所有手牌。 NL 取下所有 目标 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌。 NL 取下所有 目标 。"
+  },
+  "tuner:Twinkle": {
+    "NAME": "闪烁",
+    "PID": "119320798",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 选择一张 *闪烁 以外的 目标 和这张牌交换。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:FeatherPen": {
+    "NAME": "半日",
+    "PID": "105466693",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 在手牌加入 !M! 张 *稍息 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Feather": {
+    "NAME": "稍息",
+    "PID": "121829774",
+    "DESCRIPTION": "保留 。 NL 选择一张 目标 丢弃。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 选择一张 目标 丢弃并将其 升级 。 NL 消耗 。"
+  },
+  "tuner:FullMissileLaunch": {
+    "NAME": "火力覆盖",
+    "PID": "120728958",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 丢弃所有 目标 。 NL 消耗 其中的状态和 诅咒 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:LongShot": {
+    "NAME": "重炮",
+    "PID": "121616390",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL （额外造成自身 专注 数量 !M! 倍的伤害）",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpatialDistortion": {
+    "NAME": "二重身",
+    "PID": "121296466",
+    "DESCRIPTION": "获得与当前 格挡 相同的 专注 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得与当前 格挡 相同的 专注 。 NL 同时获得与当前 专注 相同的 格挡 。 NL 消耗 。"
+  },
+  "tuner:Moisturizing": {
+    "NAME": "华丽终曲",
+    "DESCRIPTION": "只有当抽牌堆没有牌时才能打出。 NL 获得 !M! 层 专注 。 NL 抽4张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "抽牌堆中还有牌。。"
+    ]
+  },
+  "tuner:ChaserOfShadows": {
+    "NAME": "夕海畔",
+    "PID": "92212104",
+    "DESCRIPTION": "不能被打出 。 NL 进入抽牌堆时，在手牌加入2张 *星星 。 NL !M! 次后 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HeavyBlessings": {
+    "NAME": "友人之赠",
+    "PID": "113844150",
+    "DESCRIPTION": "不能被打出 。 NL 被移除后：获得 !M! 点最大生命。每场战斗第二回合开始时在手牌加入一张 *安定 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Tracer": {
+    "NAME": "曳光",
+    "PID": "102816331",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 装填 自己。 NL 装填 至多一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DeclarationOfOutliers": {
+    "NAME": "与你的日常",
+    "PID": "X:桉树@maofang_4",
+    "DESCRIPTION": "在弹仓中加入 !M! 张 *奇迹 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExistenceOfOutliers": {
+    "NAME": "蔚蓝色",
+    "PID": "122012925",
+    "DESCRIPTION": "每回合结束时在弹仓中加入一张 *偏折 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MacroscopicUniverse": {
+    "NAME": "伊施巴力",
+    "PID": "dusk冥",
+    "DESCRIPTION": "弹仓中所有 神名碎片 升级。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SanShengTiao": {
+    "NAME": "扫荡",
+    "PID": "107666072",
+    "DESCRIPTION": "每回合第一次同时检视了3种耗能的 目标 时，对所有敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Guide": {
+    "NAME": "传递的情感",
+    "PID": "116057218",
+    "DESCRIPTION": "装填 一张牌。 NL 若所有 目标 耗能 顺序 排列，获得 [E] [E] 。",
+    "UPGRADE_DESCRIPTION": "装填 一张牌。 NL 若所有 目标 耗能 顺序 排列，获得 [E] [E] [E] 。"
+  },
+  "tuner:EntropyReducer": {
+    "NAME": "教育霞",
+    "PID": "115760437",
+    "DESCRIPTION": "修正 自己。 NL 如果取消 修正 自己从牌组移除。",
+    "UPGRADE_DESCRIPTION": "修正 自己。"
+  },
+  "tuner:SwiftSteps": {
+    "NAME": "梦醒时",
+    "PID": "112194346",
+    "DESCRIPTION": "回合结束时，获得 !M! 层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TuningForm": {
+    "NAME": "形态-伊施波舍dep",
+    "PID": "111665447",
+    "DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "回合结束时，抽1张牌并获得那张牌打出前0费的复制。"
+  },
+  "tuner:TuningForm2": {
+    "NAME": "形态dep",
+    "PID": "95263920",
+    "DESCRIPTION": "获得一层 *飞行 。 虚无 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得一层 *飞行 。 NL *飞行 降低25%的攻击伤害。 NL 每次失去生命后，在敌人回合结束时减少一层。 NL 回合开始时增加一层，并获得对应层数的 [E] 。"
+  },
+  "tuner:TuningForm3": {
+    "NAME": "轻盈形态",
+    "PID": "95263920",
+    "DESCRIPTION": "虚无 。 NL 每回合一次，你可以直接打出你的 目标 。",
+    "UPGRADE_DESCRIPTION": "每回合一次，你可以直接打出你的 目标 。"
+  },
+  "tuner:Fusion": {
+    "NAME": "重点关照",
+    "PID": "119838158",
+    "DESCRIPTION": "选择一张 目标 ，本场战斗当它进入弃牌堆时，将它 装填 。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "重点关注一张牌"
+    ]
+  },
+  "tuner:ThousandPapermadeCranes": {
+    "NAME": "千纸鹤",
+    "DESCRIPTION": "从你本场战斗的牌中选择一张牌组中不存在的牌。 NL 获得那张牌的复制。 NL 这张牌从牌组移除。",
+    "UPGRADE_DESCRIPTION": "从你本场战斗的牌中选择一张牌组中不存在的牌。 NL 获得那张牌的复制。 NL 去除这张牌的 升级 。",
+    "EXTENDED_DESCRIPTION": [
+      "获得其中的一张"
+    ]
+  },
+  "tuner:SplicingTogether": {
+    "NAME": "弹药装填dep",
+    "DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。",
+    "UPGRADE_DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 激活 专注 提升伤害的效果。 NL 抽 !M! 张牌。"
+  },
+  "tuner:BothVisualPerception": {
+    "NAME": "瓶装神秘dep",
+    "DESCRIPTION": "战斗结束后额外获得一次 神名碎片 选牌。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "战斗结束后额外获得一次 神名碎片 选牌。"
+  },
+  "tuner:Fate": {
+    "NAME": "音符舞",
+    "PID": "121011265",
+    "DESCRIPTION": "战斗开始时在抽牌堆加入一张复制。 NL 当两张 *音符舞 同时成为 目标 时自动打出。 NL 对随机敌人造成 !D! 点伤害。 消耗 。",
+    "UPGRADE_DESCRIPTION": "战斗开始时在抽牌堆加入一张复制。 NL 当两张 *音符舞 同时成为 目标 时自动打出。 NL 对随机敌人造成 !D! 点伤害。"
+  },
+  "tuner:AR": {
+    "NAME": "魔甲",
+    "PID": "122162995",
+    "DESCRIPTION": "抽牌以外的方式离开抽牌堆的牌 升级 。 NL 升级 的牌离开抽牌堆时获得1点 格挡 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 抽牌以外的方式离开抽牌堆的牌 升级 。 NL 升级 的牌离开抽牌堆时获得1点 格挡 。"
+  },
+  "tuner:Genroku": {
+    "NAME": "漂浮",
+    "PID": "112530286",
+    "DESCRIPTION": "每次 洗牌 获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BlackHole": {
+    "NAME": "热充能",
+    "PID": "121069803",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本回合每打出过一张其他攻击牌，获得 [E] 。 NL （ !M! 点，最多4点）",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:BreakingThroughTheArmy": {
+    "NAME": "强袭",
+    "PID": "120814854",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本场战斗这张牌伤害增加 !M! 。 NL 装填 这张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Resonance": {
+    "NAME": "明晰",
+    "PID": "121116983",
+    "DESCRIPTION": "额外检视 !M! 个 目标 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ExquisiteShooting": {
+    "NAME": "精巧射击dep",
+    "DESCRIPTION": "拥有 专注 时，去除敌人的格挡。 NL 当拥有至少5 专注 时，造成 !D! 点伤害。 NL 当拥有至少15 专注 时，获得一层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:StrikeHard": {
+    "NAME": "特急任务",
+    "PID": "121589455",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 安定 最左侧的 目标 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 装填 至多1张牌。 NL 安定 最左侧的 目标 。 NL 消耗 。"
+  },
+  "tuner:Rewriting": {
+    "NAME": "安定",
+    "PID": "120010390",
+    "DESCRIPTION": "保留 。 NL 选择一张 目标 安定 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 选择一张 目标 安定 并将其 升级 。 NL 消耗 。"
+  },
+  "tuner:Overwriting": {
+    "NAME": "修正",
+    "PID": "119331275",
+    "DESCRIPTION": "保留 。 NL 选择一张 目标 修正 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 选择一张 目标 修正 并将其 升级 。 NL 消耗 。"
+  },
+  "tuner:Writer": {
+    "NAME": "裁决",
+    "PID": "121229872",
+    "DESCRIPTION": "在手牌加入一张 *安定 与 一张 *修正 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:RandomSong": {
+    "NAME": "随想曲",
+    "PID": "116002965",
+    "DESCRIPTION": "使敌人获得 *生命 ， 格挡 ， 力量 的效果变为令其受到 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DecayArrow": {
+    "NAME": "衰变弹",
+    "PID": "114001723",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌 !M! 秒后丢弃自己。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Wormhole": {
+    "NAME": "死星鸣动",
+    "PID": "108035336",
+    "DESCRIPTION": "保留 。造成 !D! 点伤害。 NL 每当被 保留 时，将这张牌伴随的 神名碎片 每种增加一张。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:PhantomStep": {
+    "NAME": "威压",
+    "PID": "109045821",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予所有敌人1层 虚弱 。 NL 也可以右键丢弃这张牌，并获得 !M! 层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AbsorptionBarrier": {
+    "NAME": "魔神虚影",
+    "PID": "121865551",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 这张牌在手牌中时： NL 获得 格挡 改为增加这张牌的 格挡 值。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 这张牌在手牌中时： NL 你不再受 脆弱 影响，且获得 格挡 改为增加这张牌的 格挡 值。"
+  },
+  "tuner:ShrinkingTechnique": {
+    "NAME": "加班",
+    "PID": "114394465",
+    "DESCRIPTION": "获得 !M! 层 专注 。 NL 两回合内 专注 不能增加伤害。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 专注 。 NL 本回合 专注 不能增加伤害。"
+  },
+  "tuner:TheSandOfTheUniverse": {
+    "NAME": "宙之沙dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每次被 目标 耗能减少一。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Topology": {
+    "NAME": "练习",
+    "PID": "116808607",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 拾起时，移除牌组内其他的 *练习 ，并获得它们的 格挡 值。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:HighDimensionalExistence": {
+    "NAME": "演奏的心情",
+    "PID": "116235576",
+    "DESCRIPTION": "专注 增加伤害的效果提升1倍。 NL 你的非攻击伤害也将受到 专注 加成。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheArrowOfHisMountain": {
+    "NAME": "火树银花",
+    "PID": "136609921",
+    "DESCRIPTION": "拾起时，从 NL *战吼+ ， *超频+ ， NL *早有准备+ ， *天眼+ NL 中选择一张，将其代替这张牌加入牌组。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Juehai": {
+    "NAME": "绝海",
+    "PID": "121371680",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 用抽牌以外的方式离开抽牌堆后耗能变为0。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Concentrate": {
+    "NAME": "凝神",
+    "PID": "87676885",
+    "DESCRIPTION": "将你的弃牌堆洗牌后放入你的抽牌堆。 NL 获得 !M! 层 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AirSuperiority": {
+    "NAME": "震怒",
+    "PID": "107040629",
+    "DESCRIPTION": " 保留 。 消耗 。 NL 给予敌人 !M! 层 易伤 。 NL 将你的弃牌堆洗牌后放入你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AorB": {
+    "NAME": "Hina",
+    "PID": "NULL",
+    "DESCRIPTION": "选择一张 目标 安定。 NL 也可以右键将这张牌丢弃，并 修正最右侧的 目标 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TheEnd": {
+    "NAME": "终幕dep",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入2张 *终幕+ 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 在手牌加入1张 *终幕 。 NL 消耗 。"
+  },
+  "tuner:TheEnd2": {
+    "NAME": "终幕",
+    "PID": "121388074",
+    "DESCRIPTION": "检视的 目标 变为1个。 NL 造成 !D! 点伤害 !M! 次。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Light": {
+    "NAME": "大扫除",
+    "PID": "117781745",
+    "DESCRIPTION": "选最多X张 目标 取下。 NL 获得它们耗能的 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "选最多X+1张 目标 取下。 NL 获得它们耗能的 [E] 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      "选择牌取下"
+    ]
+  },
+  "tuner:LoadVoid": {
+    "NAME": "腾空",
+    "PID": "118894027",
+    "DESCRIPTION": "装填 2张 *虚空 。 NL 造成 !D! 点伤害。 NL 获得未被 格挡 的伤害等量的 专注 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TricostStrike": {
+    "NAME": "弹道学",
+    "PID": "111641230",
+    "DESCRIPTION": "造成 !D! 点伤害4次。 NL 若在精英或boss战中打出，获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Colored": {
+    "NAME": "色彩化",
+    "PID": "122920195",
+    "DESCRIPTION": "在手牌加入一张 修正 牌。 NL 你的 安定 全部替换为 修正 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TargetedElimination": {
+    "NAME": "定位清除",
+    "PID": "127891530",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 作为 目标 时，可以免费打出并 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SpottingRound": {
+    "NAME": "校正弹",
+    "PID": "136901780",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每回合第二次打出时，造成 !M! 倍伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:IntelligencePreparation": {
+    "NAME": "情报准备",
+    "PID": "131510392",
+    "DESCRIPTION": "下回合开始时，额外抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "下回合开始时，额外抽 !M! 张牌，并将那些牌 升级 。"
+  },
+  "tuner:MelodyOfTheFinale": {
+    "NAME": "终演的旋律",
+    "PID": "133644523",
+    "DESCRIPTION": "造成 !D! 点群体伤害。 NL 丢弃任意数量的 目标 。若丢弃了至少 !M! 个目标，重复卡牌效果，最多3次。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SeeingRed": {
+    "NAME": "遥香（正月）",
+    "DESCRIPTION": "获得%d [E] 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Enlightenment": {
+    "NAME": "白子（泳装）",
+    "DESCRIPTION": "安定 时，被 安定 牌的耗能降低至1。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Load": {
+    "NAME": "伊吹",
+    "DESCRIPTION": "用于 安定 时，抽%d张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Omniscience": {
+    "NAME": "晴奈",
+    "DESCRIPTION": "回复%d点生命。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:SneckoOil": {
+    "NAME": "纯子（正月）",
+    "DESCRIPTION": "获得的 专注 增加%d点。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Anger": {
+    "NAME": "芹香",
+    "DESCRIPTION": "只要这张碎片处于弹仓内， 修正 时的选项卡是升级版的概率增加%d%%。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Pray": {
+    "NAME": "亚子（礼服）",
+    "DESCRIPTION": "每回合开始获得%d层 真言 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Recycle": {
+    "NAME": "濑名",
+    "DESCRIPTION": "回到抽牌堆时，被 安定 牌伤害增加%d。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Uppercut": {
+    "NAME": "佳代子",
+    "DESCRIPTION": "给予%d层 易伤 与%d层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blur": {
+    "NAME": "遥香",
+    "DESCRIPTION": "本回合内 格挡 不会消失。 消耗 。",
+    "UPGRADE_DESCRIPTION": "%d回合内 格挡 不会消失。"
+  },
+  "tuner:Neutralize": {
+    "NAME": "真琴",
+    "DESCRIPTION": "给予%d层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Prostrate": {
+    "NAME": "日鞠",
+    "DESCRIPTION": "获得%d层 真言 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Smite": {
+    "NAME": "阿露（正月）",
+    "DESCRIPTION": "造成%d点伤害。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Skim": {
+    "NAME": "睦月（正月）",
+    "DESCRIPTION": "抽%d张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Predator": {
+    "NAME": "睦月",
+    "DESCRIPTION": "对中间的1-2名敌人造成%d点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Sentinel": {
+    "NAME": "哨位dep",
+    "DESCRIPTION": "被 消耗 时，获得 [E] [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Thunderclap": {
+    "NAME": "晴奈（体操服）",
+    "DESCRIPTION": "给予所有敌人%d层 易伤 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Armaments": {
+    "NAME": "星野（泳装）",
+    "DESCRIPTION": "本场战斗所有手牌 升级 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "本场战斗所有手牌 升级 。"
+  },
+  "tuner:Leap": {
+    "NAME": "明里",
+    "DESCRIPTION": "用抽牌以外的方式离开抽牌堆时，获得 %d 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Melter": {
+    "NAME": "霞",
+    "DESCRIPTION": "去除敌人的 格挡 。",
+    "UPGRADE_DESCRIPTION": "去除敌人的 格挡 ，多层护甲，金属化。",
+    "EXTENDED_DESCRIPTION": [
+      "去除敌人的 格挡 ，多层护甲，金属化， 人工制品 。"
+    ]
+  },
+  "tuner:WellPlan": {
+    "NAME": "绮罗罗",
+    "DESCRIPTION": "洗回抽牌堆。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Worship": {
+    "NAME": "亚子",
+    "DESCRIPTION": "获得%d层 真言 。这张碎片回到弹仓。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:AllForOne": {
+    "NAME": "万物dep",
+    "DESCRIPTION": "将弃牌堆中所有0耗能的牌放入你的手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:MasterOfStrategy": {
+    "NAME": "日奈",
+    "DESCRIPTION": "抽%d张牌。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Miracle": {
+    "NAME": "奇迹",
+    "DESCRIPTION": "获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] 。",
+    "EXTENDED_DESCRIPTION": [
+      "获得 [E] [E] [E] 。"
+    ]
+  },
+  "tuner:Deflect": {
+    "NAME": "偏折",
+    "DESCRIPTION": "获得%d点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Defence": {
+    "NAME": "千夏",
+    "DESCRIPTION": "获得%d点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Strike": {
+    "NAME": "伊织",
+    "DESCRIPTION": "造成%d点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Icy": {
+    "NAME": "泉",
+    "DESCRIPTION": "生成1个 冰霜 充能球 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "生成1个 冰霜 充能球 。",
+    "EXTENDED_DESCRIPTION": [
+      "生成1个 冰霜 充能球 。获得一个充能球位。"
+    ]
+  },
+  "tuner:Hologram": {
+    "NAME": "全息dep",
+    "DESCRIPTION": "装填 自身。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:DoubleTap": {
+    "NAME": "佳代子（正月）",
+    "DESCRIPTION": "额外打出一次。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Echo": {
+    "NAME": "伊织（原版）",
+    "DESCRIPTION": "在手牌加入1张 虚无 消耗 的复制。 消耗 。",
+    "UPGRADE_DESCRIPTION": "在手牌加入%d张 虚无 消耗 的复制。"
+  },
+  "tuner:Reflex": {
+    "NAME": "风纪委员（杂鱼）",
+    "PID": "123467053",
+    "DESCRIPTION": "拾起时在牌组加入2张复制。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Loop": {
+    "NAME": "伊吕波",
+    "DESCRIPTION": "造成%d点伤害。这张碎片 安定 时不会消失。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Blasphemy": {
+    "NAME": "纯子",
+    "DESCRIPTION": "额外打出%d次。下回合死亡。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Safety": {
+    "NAME": "千夏（原版）",
+    "DESCRIPTION": "获得%d层 人工制品 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:ThirdEye": {
+    "NAME": "晴奈（正月）",
+    "DESCRIPTION": "拾起时，获得%d点最大生命。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Acrobatics": {
+    "NAME": "泉奈",
+    "DESCRIPTION": "抽%d张牌。丢弃1张牌。这张碎片回到弹仓。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Alu": {
+    "NAME": "阿露",
+    "DESCRIPTION": "敌人失去最大生命值%d%%的生命。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Fuuka": {
+    "NAME": "枫香（正月）",
+    "DESCRIPTION": "生成 1个 等离子 充能球 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "生成 1个 等离子 充能球 。"
+  },
+  "tuner:Fuuka2": {
+    "NAME": "枫香",
+    "DESCRIPTION": "每次洗牌时从抽牌堆加入手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Dahuolong": {
+    "NAME": "惠",
+    "DESCRIPTION": "抽%d张牌。获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:Sleep": {
+    "NAME": "皋月",
+    "DESCRIPTION": "使敌人睡眠1回合。 消耗 。",
+    "UPGRADE_DESCRIPTION": "使敌人睡眠1回合。"
+  },
+  "tuner:July": {
+    "NAME": "朱莉",
+    "DESCRIPTION": "每回合开始：获得2点 力量 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "每回合开始：获得2点 力量 ，抽1张牌。 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      "每回合开始：获得2点 力量 ，抽1张牌，获得 [E] 。 消耗 。"
+    ]
+  },
+  "tuner:Chiaki": {
+    "NAME": "千秋",
+    "DESCRIPTION": "在本回合 保留 你的手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "tuner:TempCards": {
+    "NAME": "第一张神名碎片dep",
+    "DESCRIPTION": "获得4点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  }
+}

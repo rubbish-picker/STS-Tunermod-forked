@@ -1,0 +1,30 @@
+{
+  "tuner:ATRelic": {
+    "NAME": "디스트로이어",
+    "FLAVOR": "히나가 가장 좋아하는 무기.",
+    "DESCRIPTIONS": [
+      "1. 뽑을 카드 더미의 상위 #b5장을 확인합니다. 이들은 #y\"목표\" 로 간주됩니다. NL 2. 각 전투 승리 후, #y엘레프 생성 기회가 있습니다."
+    ]
+  },
+  "tuner:Bless": {
+    "NAME": "Friend's Gift",
+    "FLAVOR": "용감한 자의 선물.",
+    "DESCRIPTIONS": [
+      "두 번째 턴 시작 시, 같은 개수의 #y안정화를 손에 추가합니다."
+    ]
+  },
+  "tuner:MemoryFragments": {
+    "NAME": "선도부 완장",
+    "FLAVOR": "차갑고 무정해 보입니다.",
+    "DESCRIPTIONS": [
+      "턴 시작 시 [E] 를 얻습니다. [E] 가 남아있지 않은 채로 턴이 끝날 때까지 유지됩니다."
+    ]
+  },
+  "tuner:GehennaPrefectTeam": {
+    "NAME": "선도부 비품용 튜브",
+    "FLAVOR": "히나의 안전을 위해 최고급 재료로 만들어진 특별한 튜브입니다. 수영을 못 하는 그녀는 물속에서 이걸 착용하지 않은 모습을 볼 수 없습니다.",
+    "DESCRIPTIONS": [
+      "#y선도부 #y완장을 대체합니다. NL 턴 시작 시 [E] 를 얻습니다."
+    ]
+  }
+}
