@@ -48,6 +48,9 @@ import tuner.misc.MapcardTarget;
 import tuner.misc.PIDStrings;
 import tuner.misc.ImaginaryReward;
 import tuner.helpers.ModHelper;
+import tuner.events.TunerSampleEvent;
+import tuner.events.LLMGeneratedEvent;
+import tuner.llm.LLMEventService;
 import tuner.patches.combat.DrawPileMonitor;
 import tuner.patches.combat.EndTurnButtonPatch;
 import tuner.patches.utils.RightClickPatch;
@@ -120,6 +123,8 @@ public class AstrographTuner implements
     private ArrayList<AbstractCard> cardsToAdd = new ArrayList<>();
 
     public static int TurnCounter;
+
+    private static int lastSeenFloorForLLMPrefetch = -1;
 
     public AstrographTuner() {
         BaseMod.subscribe(this);
@@ -288,6 +293,12 @@ public class AstrographTuner implements
         logger.info("===============加载事件与其他东西===============");
 //        BaseMod.addEvent("MetAlbaz", MetAlbaz.class, "TheBeyond");
 //        BaseMod.addMonster("zhenyan", () -> new monsters.Zhenyan());
+
+        BaseMod.addEvent(TunerSampleEvent.ID, TunerSampleEvent.class, "Exordium");
+        // Register LLM generated event to all acts
+        BaseMod.addEvent(LLMGeneratedEvent.ID, LLMGeneratedEvent.class, "Exordium");
+        BaseMod.addEvent(LLMGeneratedEvent.ID, LLMGeneratedEvent.class, "TheCity");
+        BaseMod.addEvent(LLMGeneratedEvent.ID, LLMGeneratedEvent.class, "TheBeyond");
 
         SkinSelectScreen.Inst = new SkinSelectScreen();
 
@@ -486,6 +497,79 @@ public class AstrographTuner implements
     @Override
     public void receivePostUpdate() {
         RightClickPatch.update();
+
+        if (ConfigHelper.llmEventEnabled && com.megacrit.cardcrawl.dungeons.AbstractDungeon.player != null) {
+            int floor = com.megacrit.cardcrawl.dungeons.AbstractDungeon.floorNum;
+            if (floor != lastSeenFloorForLLMPrefetch) {
+                lastSeenFloorForLLMPrefetch = floor;
+                
+                // Only prefetch if N+2 floor exists and might be an event
+                // Check if we can access the dungeon map
+                if (com.megacrit.cardcrawl.dungeons.AbstractDungeon.map != null && 
+                    com.megacrit.cardcrawl.dungeons.AbstractDungeon.map.size() > 0) {
+                    
+                    int targetFloor = floor + 2;
+                    // Only request if target floor is within reasonable range and there is an EVENT node reachable in +2 steps
+                    if (targetFloor > 0) {
+                        boolean hasEvent = anyNodeTwoAheadIsEvent();
+                        logger.info("[LLM] Floor changed to {}. Check N+2={}: hasEvent={}", floor, targetFloor, hasEvent);
+                        if (hasEvent) {
+                            LLMEventService.requestForFloorIfNeeded(targetFloor);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * Check if any map node reachable in exactly two steps from the current node is an EventRoom.
+     * This considers both flat and nested AbstractDungeon.map representations.
+     */
+    private boolean anyNodeTwoAheadIsEvent() {
+        try {
+            com.megacrit.cardcrawl.map.MapRoomNode curr = com.megacrit.cardcrawl.dungeons.AbstractDungeon.currMapNode;
+            if (curr == null) return false;
+            
+            ArrayList<ArrayList<com.megacrit.cardcrawl.map.MapRoomNode>> map = com.megacrit.cardcrawl.dungeons.AbstractDungeon.map;
+            if (map == null) return false;
+
+            // Step 1: Check nodes reachable in 1 step
+            for (com.megacrit.cardcrawl.map.MapEdge edge1 : curr.getEdges()) {
+                int x1 = edge1.dstX;
+                int y1 = edge1.dstY;
+                
+                // Safety checks for map bounds
+                if (y1 < 0 || y1 >= map.size()) continue;
+                ArrayList<com.megacrit.cardcrawl.map.MapRoomNode> row1 = map.get(y1);
+                if (x1 < 0 || x1 >= row1.size()) continue;
+                
+                com.megacrit.cardcrawl.map.MapRoomNode node1 = row1.get(x1);
+                if (node1 == null) continue;
+
+                // Step 2: Check nodes reachable in 2 steps (from node1)
+                for (com.megacrit.cardcrawl.map.MapEdge edge2 : node1.getEdges()) {
+                    int x2 = edge2.dstX;
+                    int y2 = edge2.dstY;
+                    
+                    if (y2 < 0 || y2 >= map.size()) continue;
+                    ArrayList<com.megacrit.cardcrawl.map.MapRoomNode> row2 = map.get(y2);
+                    if (x2 < 0 || x2 >= row2.size()) continue;
+                    
+                    com.megacrit.cardcrawl.map.MapRoomNode node2 = row2.get(x2);
+                    if (node2 != null && node2.room instanceof com.megacrit.cardcrawl.rooms.EventRoom) {
+                        // Found a reachable event room 2 steps away
+                        return true;
+                    }
+                }
+            }
+            
+            return false;
+        } catch (Exception e) {
+            // Be conservative on failure: do not prefetch
+            logger.warn("[LLM] Error checking reachable N+2 event nodes: {}", e.toString());
+            return false;
+        }
     }
 
     @Override

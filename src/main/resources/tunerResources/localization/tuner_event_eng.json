@@ -36,6 +36,30 @@
 			"是否要学习一下漫画里的招式呢？",
 			"扭蛋机里出来了什么？"
 		]
+	},
+	"tuner:TunerSampleEvent": {
+		"NAME": "Sample Event",
+		"DESCRIPTIONS": [
+			"You encounter a small incident in a ? room.",
+			"You take the gold and move on.",
+			"You pick a card and move on."
+		],
+		"OPTIONS": [
+			"[Take] Gain %d Gold.",
+			"[Card Reward] Open a 3-card reward.",
+			"[Leave]",
+			"[Continue]",
+			"Choose a card."
+		]
+	},
+	"tuner:LLMGeneratedEvent": {
+		"NAME": "Mysterious Encounter",
+		"DESCRIPTIONS": [
+			"An unpredictable encounter unfolds..."
+		],
+		"OPTIONS": [
+			"[Leave]"
+		]
 	}
   		
 }

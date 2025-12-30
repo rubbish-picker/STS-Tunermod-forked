@@ -4,5 +4,8 @@
 	"activeTutorials": "加载教程（加载一次后自动关闭）",
 	"dontLoad3d": "关闭3d模型（闪退的时候可以开）",
 	"difficultMod": "困难模式:只有精英战斗与boss战斗中会掉落神名碎片。",
-	"imgSelectSfx": "开启选择神名碎片时的音效"
+	"imgSelectSfx": "开启选择神名碎片时的音效",
+	"debugForceSampleEvent": "调试：强制 ? 事件为测试事件（用于快速验证）",
+	"llmEventEnabled": "启用LLM动态事件（需要本地/远程LLM服务）",
+	"debugForceLLMEvent": "调试：强制 ? 事件为LLM事件（快速验证LLM链路）"
 }

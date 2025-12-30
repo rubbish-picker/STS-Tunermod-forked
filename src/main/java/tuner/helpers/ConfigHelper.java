@@ -27,6 +27,12 @@ public class ConfigHelper {
     public static boolean difficultMod = false;
     public static int skinIndexSaved = 0;
     public static boolean imgSelectSfx = true;
+    public static boolean debugForceSampleEvent = false;
+    public static boolean llmEventEnabled = true;
+    public static boolean debugForceLLMEvent = true;
+    public static String llmEndpoint = "https://openrouter.ai/api/v1/chat/completions";
+    public static String llmApiKey = "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";
+    public static String llmModel = "google/gemini-3-flash-preview";
 
     public static void tryCreateConfig() {
         String configFileName = "HinaConfig";
@@ -43,12 +49,24 @@ public class ConfigHelper {
             activeFullAtrTutorial = (!config.has("activeFullAtrTutorial") || config.getBool("activeFullAtrTutorial"));
             dontLoad3d = (config.has("dontLoad3d") && config.getBool("dontLoad3d"));
             difficultMod = (config.has("difficultMod") && config.getBool("difficultMod"));
+            debugForceSampleEvent = (config.has("debugForceSampleEvent") && config.getBool("debugForceSampleEvent"));
 
             if (config.has("skinIndexSaved")) {
                 skinIndexSaved = config.getInt("skinIndexSaved");
             } else skinIndexSaved = 0;
 
             imgSelectSfx = (!config.has("imgSelectSfx") || config.getBool("imgSelectSfx"));
+            llmEventEnabled = (config.has("llmEventEnabled") && config.getBool("llmEventEnabled"));
+            debugForceLLMEvent = (config.has("debugForceLLMEvent") && config.getBool("debugForceLLMEvent"));
+            if (config.has("llmEndpoint")) {
+                llmEndpoint = config.getString("llmEndpoint");
+            }
+            if (config.has("llmApiKey")) {
+                llmApiKey = config.getString("llmApiKey");
+            }
+            if (config.has("llmModel")) {
+                llmModel = config.getString("llmModel");
+            }
         }
     }
 
@@ -156,11 +174,47 @@ public class ConfigHelper {
                         }
                     });
 
+            yPos -= 50.0F;
+            ModLabeledToggleButton debugForceSampleEventButton =
+                    new ModLabeledToggleButton(configStrings.get("debugForceSampleEvent"), 350.0F, yPos, Settings.CREAM_COLOR, FontHelper.charDescFont, debugForceSampleEvent, modPanel, label -> {
+                    }, button -> {
+                        if (config != null) {
+                            debugForceSampleEvent = button.enabled;
+                            config.setBool("debugForceSampleEvent", debugForceSampleEvent);
+                            trySaveConfig(config);
+                        }
+                    });
+
+            yPos -= 50.0F;
+            ModLabeledToggleButton llmEventEnabledButton =
+                    new ModLabeledToggleButton(configStrings.get("llmEventEnabled"), 350.0F, yPos, Settings.CREAM_COLOR, FontHelper.charDescFont, llmEventEnabled, modPanel, label -> {
+                    }, button -> {
+                        if (config != null) {
+                            llmEventEnabled = button.enabled;
+                            config.setBool("llmEventEnabled", llmEventEnabled);
+                            trySaveConfig(config);
+                        }
+                    });
+
+            yPos -= 50.0F;
+            ModLabeledToggleButton debugForceLLMEventButton =
+                    new ModLabeledToggleButton(configStrings.get("debugForceLLMEvent"), 350.0F, yPos, Settings.CREAM_COLOR, FontHelper.charDescFont, debugForceLLMEvent, modPanel, label -> {
+                    }, button -> {
+                        if (config != null) {
+                            debugForceLLMEvent = button.enabled;
+                            config.setBool("debugForceLLMEvent", debugForceLLMEvent);
+                            trySaveConfig(config);
+                        }
+                    });
+
             modPanel.addUIElement(otherObtainDestroyerButton);
             modPanel.addUIElement(activeTutorialsButton);
             modPanel.addUIElement(dontLoad3dButton);
             modPanel.addUIElement(difficultModButton);
             modPanel.addUIElement(imgSelectSfxButton);
+            modPanel.addUIElement(debugForceSampleEventButton);
+            modPanel.addUIElement(llmEventEnabledButton);
+            modPanel.addUIElement(debugForceLLMEventButton);
         } else {
             ModLabeledToggleButton otherObtainDestroyerButton =
                     new ModLabeledToggleButton(configStrings.get("otherObtainDestroyer2"),

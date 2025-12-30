@@ -29,8 +29,8 @@ public class SimpleHttpClient {
 
             // 配置基础参数
             connection.setRequestMethod(request.getMethod());
-            connection.setConnectTimeout(5000);   // 5秒连接超时
-            connection.setReadTimeout(10000);   // 10秒读取超时
+            connection.setConnectTimeout(15000);   // 15秒连接超时
+            connection.setReadTimeout(60000);   // 60秒读取超时 (LLM API 需要更长时间)
 
             // 设置请求头
             for (Map.Entry<String, String> header : request.getHeaders().entrySet()) {

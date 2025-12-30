@@ -4,5 +4,8 @@
 	"activeTutorials": "Load Tutorials.(Tutorials automatically close after loading once)",
 	"dontLoad3d": "Disable 3D model (can be enabled when crashing occurs)",
 	"difficultMod": "Hard Mode: Elephs are only dropped in elite battles and boss battles.",
-	"imgSelectSfx": "Play the sound effect when selecting Eleph."
+	"imgSelectSfx": "Play the sound effect when selecting Eleph.",
+	"debugForceSampleEvent": "Debug: Force ? events to the sample event (quick verification)",
+	"llmEventEnabled": "Enable LLM-generated events (requires an LLM service)",
+	"debugForceLLMEvent": "Debug: Force ? events to LLM event (quick verification)"
 }
