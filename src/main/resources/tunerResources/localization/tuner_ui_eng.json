@@ -52,6 +52,18 @@
       "Your deck has no Elephs."
     ]
   },
+  "tuner:OptionGainMaxHp": {
+    "TEXT": [
+      "Reinforce",
+      "Gain %d Max HP (no heal)",
+      "Unavailable"
+    ]
+  },
+  "tuner:CampfireGainMaxHpEffect": {
+    "TEXT": [
+      "Reinforce"
+    ]
+  },
   "tuner:MelodyOfTheFinaleAction": {
     "TEXT": [
       "discard"

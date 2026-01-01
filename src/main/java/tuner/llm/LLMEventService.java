@@ -50,11 +50,9 @@ public final class LLMEventService {
                             normalized.options == null ? 0 : normalized.options.size());
                 } else {
                     logger.warn("LLM event spec invalid after normalize for floor {}", floor);
-                    LLMEventCache.unmarkRequested(floor);
                 }
             } catch (Exception e) {
-                // Allow retry on next prefetch attempt
-                LLMEventCache.unmarkRequested(floor);
+                // Do not Allow retry on next prefetch attempt
                 logger.warn("LLM event fetch failed for floor {}: {}", floor, e.toString());
             }
         }, "tuner-llm-event-prefetch").start();

@@ -52,6 +52,18 @@
       "당신의 덱에 엘레프가 없습니다."
     ]
   },
+  "tuner:OptionGainMaxHp": {
+    "TEXT": [
+      "확장",
+      "최대 체력을 %d 얻습니다 (회복 없음)",
+      "사용 불가"
+    ]
+  },
+  "tuner:CampfireGainMaxHpEffect": {
+    "TEXT": [
+      "확장"
+    ]
+  },
   "tuner:MelodyOfTheFinaleAction": {
     "TEXT": [
       "discard"

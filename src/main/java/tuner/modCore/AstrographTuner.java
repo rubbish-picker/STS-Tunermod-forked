@@ -505,8 +505,8 @@ public class AstrographTuner implements
                 
                 // Only prefetch if N+2 floor exists and might be an event
                 // Check if we can access the dungeon map
-                if (com.megacrit.cardcrawl.dungeons.AbstractDungeon.map != null && 
-                    com.megacrit.cardcrawl.dungeons.AbstractDungeon.map.size() > 0) {
+                if (com.megacrit.cardcrawl.dungeons.AbstractDungeon.map != null &&
+                        !AbstractDungeon.map.isEmpty()) {
                     
                     int targetFloor = floor + 2;
                     // Only request if target floor is within reasonable range and there is an EVENT node reachable in +2 steps

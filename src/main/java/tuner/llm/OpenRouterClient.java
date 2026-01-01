@@ -171,7 +171,7 @@ sb.append("- 2-5 options; Leave is optional (may be absent) and option order sho
         sb.append("- Text must relate to THIS run (mention at least 2 details above)\n");
         sb.append("- When referring to values that may change between prefetch and the room entry, use placeholders: {HP}, {MAX_HP}, {GOLD}, {DECK_SIZE}, {CURSE_COUNT}, {RELICS}, {FLOOR}. Do NOT put concrete numbers for these values; they will be substituted by the game when the room is opened.\n\n");
         sb.append("- Use Slay the Spire inline color tokens for emphasis: #g (green), #r (red), #b (blue), #y (yellow). Place token immediately before the word/phrase to color; do NOT output hex codes like [#66ff66] or HTML tags. Example: \"#gGain 50 Gold\" or \"#rLose 10 HP\".\n\n");
-        sb.append("description的文风说明：允许适当包含：对玩家进行幽默、讽刺挖苦或者玩一些杀戮尖塔的梗。") ;
+        sb.append("- description的文风说明：允许适当包含：对玩家进行幽默、讽刺挖苦或者玩一些杀戮尖塔的梗。") ;
         sb.append("Return ONLY the JSON object.");
 
         return sb.toString();

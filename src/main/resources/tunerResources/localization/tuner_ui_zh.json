@@ -52,6 +52,18 @@
       "牌组中没有神名碎片。"
     ]
   },
+  "tuner:OptionGainMaxHp": {
+    "TEXT": [
+      "扩容",
+      "增加 %d 最大生命值（不回复生命）",
+      "不可用"
+    ]
+  },
+  "tuner:CampfireGainMaxHpEffect": {
+    "TEXT": [
+      "扩容"
+    ]
+  },
   "tuner:MelodyOfTheFinaleAction": {
     "TEXT": [
       "丢弃"

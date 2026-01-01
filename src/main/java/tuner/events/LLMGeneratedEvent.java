@@ -23,6 +23,7 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
     private static final com.megacrit.cardcrawl.localization.EventStrings STRINGS = CardCrawlGame.languagePack.getEventString("tuner:LLMGeneratedEvent");
     private static final String LEAVE_OPTION = (STRINGS != null && STRINGS.OPTIONS != null && STRINGS.OPTIONS.length > 0) ? STRINGS.OPTIONS[0] : "[Leave]";
     private static final String CONTINUE_OPTION = (STRINGS != null && STRINGS.OPTIONS != null && STRINGS.OPTIONS.length > 1) ? STRINGS.OPTIONS[1] : "[Continue]";
+    private static final String ENTER_COMBAT_OPTION = (STRINGS != null && STRINGS.OPTIONS != null && STRINGS.OPTIONS.length > 2) ? STRINGS.OPTIONS[2] : "[Enter Combat]";
 
     // Pool of vanilla event images to randomly select from
     private static final String[] EVENT_IMAGES = {
@@ -83,14 +84,13 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
     private boolean waitingForCardReward = false;
     private boolean done = false;
 
-    // Pending combat execution triggered after showing revealText (small delay to allow UI update)
+    // Pending combat execution triggered by player confirmation
     private java.util.ArrayList<tuner.llm.LLMEffect> pendingCombatEffects = null;
-    private float pendingCombatDelay = 0f;
     private String pendingCombatRevealText = null;
         // Pending hidden effects that should execute after a card reward finishes
         private java.util.ArrayList<tuner.llm.LLMEffect> pendingHiddenEffects = null;
         private String pendingHiddenRevealText = null;
-        private boolean revealBlocking = false; // when true, ignore option clicks while waiting to start combat
+        private boolean awaitingCombatClick = false; // when true, waiting for player to click the enter-combat option
 
         // Tracks that we started a combat from this event so we can handle post-combat cleanup
         private boolean startedCombatFromEvent = false;
@@ -153,7 +153,7 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
                     }
 
                     if (containsCombat) {
-                        // Show revealText then defer to pendingCombat mechanism to start combat
+                        // Show revealText and provide a unique enter-combat option for player confirmation
                         if (reveal != null && !reveal.isEmpty()) {
                             this.imageEventText.updateBodyText(replacePlaceholders(reveal));
                         } else if (spec != null && spec.descriptions != null && spec.descriptions.size() >= 2) {
@@ -161,12 +161,12 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
                         }
 
                         this.imageEventText.clearAllDialogs();
-                        this.imageEventText.setDialogOption(LEAVE_OPTION);
+                        this.imageEventText.setDialogOption(ENTER_COMBAT_OPTION);
 
                         pendingCombatEffects = new java.util.ArrayList<>(hidden);
                         pendingCombatRevealText = reveal;
-                        pendingCombatDelay = 0.2f;
-                        revealBlocking = true;
+                        awaitingCombatClick = true;
+                        logger.info("[LLM] Awaiting player confirmation to start combat (deferred {})", pendingCombatEffects.size());
                     } else {
                         // No combat: execute immediately
                         LLMEventExecutor.executeEffects(hidden);
@@ -197,49 +197,55 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
             }
         }
 
-        // Handle delayed combat start after showing reveal text
-        if (pendingCombatEffects != null) {
-            pendingCombatDelay -= com.badlogic.gdx.Gdx.graphics.getDeltaTime();
-            if (pendingCombatDelay <= 0f) {
-                java.util.ArrayList<tuner.llm.LLMEffect> toExec = pendingCombatEffects;
-                pendingCombatEffects = null;
-                // Execute hidden effects now (this may start combat via LLMEventExecutor.startCombat)
-                logger.info("[LLM] Executing deferred {} hidden effects", toExec == null ? 0 : toExec.size());
-                LLMEventExecutor.executeEffects(toExec);
-
-                // Reset blocking regardless
-                revealBlocking = false;
-
-                // If a combat was started, immediately transition to combat
-                if (LLMEventExecutor.isWaitingForCombat()) {
-                    // Enter combat after starting it
-                    enterCombatFromEvent();
-                    startedCombatFromEvent = true;
-                    return;
-                }
-
-                // No combat started, show reveal+leave
-                showTrapRevealAndLeave(pendingCombatRevealText);
-                pendingCombatRevealText = null;
-            }
+        // Await player confirmation to start combat; execution happens when player clicks the enter-combat option
+        if (pendingCombatEffects != null && awaitingCombatClick) {
+            // Do nothing here — awaiting player's click to execute pendingCombatEffects.
         }
+
 
         // Handle post-combat cleanup: if we started combat from this event and the room is now over
         if (startedCombatFromEvent) {
             com.megacrit.cardcrawl.rooms.AbstractRoom room = com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCurrRoom();
             if (room != null && room.isBattleOver) {
-                // Reset flag and show post-combat text with leave option
+                // Reset flag and immediately open map to avoid player being stuck
                 startedCombatFromEvent = false;
-                showDoneAndLeave();
+                openMap();
             }
         }
     }
 
     @Override
     protected void buttonEffect(int buttonPressed) {
-        if (revealBlocking) {
-            // Ignore input while we're showing reveal text and about to start combat
-            return;
+        // If we're awaiting the player's explicit confirmation to start combat, handle that click here.
+        if (awaitingCombatClick) {
+            // We always present a single enter-combat option, mapped to button 0.
+            if (buttonPressed == 0) {
+                java.util.ArrayList<tuner.llm.LLMEffect> toExec = pendingCombatEffects;
+                pendingCombatEffects = null;
+                awaitingCombatClick = false;
+                logger.info("[LLM] Player confirmed combat; executing {} effects", toExec == null ? 0 : toExec.size());
+                LLMEventExecutor.executeEffects(toExec);
+
+                // If a combat was started, immediately transition to combat
+                if (LLMEventExecutor.isWaitingForCombat()) {
+                    enterCombatFromEvent();
+                    startedCombatFromEvent = true;
+                    return;
+                }
+
+                if (LLMEventExecutor.isWaitingForCardReward()) {
+                    waitingForCardReward = true;
+                    return;
+                }
+
+                // No combat started, show reveal+leave
+                showTrapRevealAndLeave(pendingCombatRevealText);
+                pendingCombatRevealText = null;
+                return;
+            } else {
+                // Ignore any other inputs while awaiting confirmation
+                return;
+            }
         }
 
         if (done) {
@@ -301,15 +307,14 @@ public class LLMGeneratedEvent extends AbstractImageEvent {
                             this.imageEventText.updateBodyText(replacePlaceholders(spec.descriptions.get(1)));
                         }
 
-                        // Clear dialogs and provide leave option while we prepare to start combat
+                        // Clear dialogs and provide a unique enter-combat option which player must click
                         this.imageEventText.clearAllDialogs();
-                        this.imageEventText.setDialogOption(LEAVE_OPTION);
+                        this.imageEventText.setDialogOption(ENTER_COMBAT_OPTION);
 
-                        // Defer execution slightly to allow UI to render revealText and block clicks
                         pendingCombatEffects = new java.util.ArrayList<>(opt.hiddenEffects);
                         pendingCombatRevealText = opt.revealText;
-                        pendingCombatDelay = 0.2f; // small delay
-                        revealBlocking = true;
+                        awaitingCombatClick = true;
+                        logger.info("[LLM] Awaiting player confirmation to start combat (option {})", buttonPressed);
                         return;
                     }
 

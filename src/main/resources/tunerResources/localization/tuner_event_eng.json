@@ -58,7 +58,9 @@
 			"An unpredictable encounter unfolds..."
 		],
 		"OPTIONS": [
-			"[Leave]"
+			"[Leave]",
+			"[Continue]",
+			"[Enter Combat]"
 		]
 	}
   		
